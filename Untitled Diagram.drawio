@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T07:48:08.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="v2gUjijnvyejvcsYEVY8" version="20.3.6" type="github">
-  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="제어로직">
+<mxfile host="app.diagrams.net" modified="2022-09-26T07:54:18.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4ARkOeoPjXVhRWFE6A8r" version="20.3.6" type="github" pages="2">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="신호제어로직">
     <mxGraphModel dx="1422" dy="852" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1130,6 +1130,14 @@
         <mxCell id="2S8jl9Z_Ewg1g7ZWPY-e-22" value="22" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2" y="1800" width="26" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HysC_yxE5ReIHhnbSwfB" name="신호현시로직">
+    <mxGraphModel dx="1209" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
