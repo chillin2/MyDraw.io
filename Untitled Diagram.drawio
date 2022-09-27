@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T07:05:00.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9m8679H-jIpyVTTqaZgY" version="20.3.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-27T07:07:30.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="EYKmOxvGmo11nazW0HlC" version="20.3.6" type="github" pages="6">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="신호제어로직">
     <mxGraphModel dx="1209" dy="781" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1134,7 +1134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="신호현시로직" id="9iY3anU2WQ1qqcsi_jCu">
-    <mxGraphModel dx="1008" dy="651" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="781" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="tVb0c5z6LW8A-2hf3_r9-0" />
         <mxCell id="tVb0c5z6LW8A-2hf3_r9-1" parent="tVb0c5z6LW8A-2hf3_r9-0" />
@@ -1150,7 +1150,7 @@
         <mxCell id="tVb0c5z6LW8A-2hf3_r9-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="tVb0c5z6LW8A-2hf3_r9-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="27" y="638" as="sourcePoint" />
-            <mxPoint x="27" y="45" as="targetPoint" />
+            <mxPoint x="28" y="63" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tVb0c5z6LW8A-2hf3_r9-7" value="Y1LMR-M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="tVb0c5z6LW8A-2hf3_r9-1">
@@ -1546,6 +1546,21 @@
               <mxPoint x="839" y="482.5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ILraeHK9X5dR5zTzr8Pm-61" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="tVb0c5z6LW8A-2hf3_r9-1">
+          <mxGeometry x="5" y="121" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ILraeHK9X5dR5zTzr8Pm-62" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="tVb0c5z6LW8A-2hf3_r9-1">
+          <mxGeometry x="5" y="177" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ILraeHK9X5dR5zTzr8Pm-63" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="tVb0c5z6LW8A-2hf3_r9-1">
+          <mxGeometry x="5" y="232" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ILraeHK9X5dR5zTzr8Pm-64" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="tVb0c5z6LW8A-2hf3_r9-1">
+          <mxGeometry x="5" y="373" width="18" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ILraeHK9X5dR5zTzr8Pm-65" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="tVb0c5z6LW8A-2hf3_r9-1">
+          <mxGeometry x="5" y="485" width="18" height="16" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
