@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T01:33:15.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bX6eLh_eLUT5JeL5IOjj" version="20.3.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-10-06T01:46:30.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1aw5yt2wxodXYLEwmGB4" version="20.3.7" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="신호제어로직">
     <mxGraphModel dx="1078" dy="736" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2193,6 +2193,9 @@
         </mxCell>
         <mxCell id="kFLYP9cSm7YtKTo1aLOM-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;direction=east;" vertex="1" parent="HRK4YUY4a56FCwcSoxxM-1">
           <mxGeometry x="129" y="127.5" width="21" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="kFLYP9cSm7YtKTo1aLOM-16" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(relay name).AR(millisecond) - 완동(time delay acting relay)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(relay name)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;.RR(millisecond) - 완방(time delay release relay)&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="HRK4YUY4a56FCwcSoxxM-1">
+          <mxGeometry x="28" y="11" width="588" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
