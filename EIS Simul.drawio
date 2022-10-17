@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T05:02:40.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XBB9r9hiUELsETOi_HRC" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T05:04:22.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="lcx0ZGEDnnAxNCuIftKW" version="20.4.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="구성도">
     <mxGraphModel dx="743" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="VKiJMXAjRz_KYEpEqhij-10" value="역 인터페이스 장치" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="99" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VKiJMXAjRz_KYEpEqhij-12" value="EIS Simulator&amp;nbsp; 1Set" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="VKiJMXAjRz_KYEpEqhij-12" value="연동장치 시뮬레이터" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="468" y="99" width="152" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VKiJMXAjRz_KYEpEqhij-13" value="EIS PC&lt;br&gt;Simulator" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
