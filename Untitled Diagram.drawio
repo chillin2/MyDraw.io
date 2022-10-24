@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T08:46:34.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-8S8Pcyjs5U64w6OZQY0" version="20.4.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-24T08:56:13.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hWVm-3g--eIJQ8a6FZlm" version="20.4.1" type="github" pages="8">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="신호제어로직">
     <mxGraphModel dx="1078" dy="736" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1802,7 +1802,7 @@
         <mxCell id="HRK4YUY4a56FCwcSoxxM-26" value="BL1.RR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
           <mxGeometry x="121" y="251" width="40" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="HRK4YUY4a56FCwcSoxxM-27" value="CP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
+        <mxCell id="HRK4YUY4a56FCwcSoxxM-27" value="CPT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
           <mxGeometry x="288" y="255" width="40" height="14" as="geometry" />
         </mxCell>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-28" value="전방.T-SW" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
@@ -1821,7 +1821,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HRK4YUY4a56FCwcSoxxM-31" value="ECP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
+        <mxCell id="HRK4YUY4a56FCwcSoxxM-31" value="ECPT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
           <mxGeometry x="285" y="299" width="47" height="12" as="geometry" />
         </mxCell>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-32" value="TR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
