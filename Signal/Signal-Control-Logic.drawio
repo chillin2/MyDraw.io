@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T02:03:59.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="47I9OPGkVn7oBAvxsGK4" version="21.7.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-09-18T02:04:18.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="UsKltSNLVu29B5Jaut6w" version="21.7.5" type="github" pages="10">
   <diagram name="신호제어로직(최종)" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1102" dy="645" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2399,7 +2399,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="통신제어(송신)_bak의 복사본" id="7PBwV-TRpAEEl1G0CI8A">
+  <diagram name="고장정보로직직" id="7PBwV-TRpAEEl1G0CI8A">
     <mxGraphModel dx="1102" dy="645" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9B9fs73QhCxAPTV-9ZPv-0" />
