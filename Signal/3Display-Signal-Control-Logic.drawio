@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T02:51:00.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="iiiNPBN0bKNepgLLyovp" version="22.0.8" type="github" pages="8">
-  <diagram name="3현시-신호제어로직" id="G2jBfZiijnxDi7uMoeEo">
+<mxfile host="app.diagrams.net" modified="2023-11-01T02:52:35.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="T51NO_6_37YQQeAFdI4b" version="22.0.8" type="github" pages="8">
+  <diagram name="34현시-신호제어로직" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-0" />
@@ -1233,7 +1233,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="ATS제어" id="--doO0_pMfnhSOSk5F13">
+  <diagram name="34현시-ATS제어" id="--doO0_pMfnhSOSk5F13">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="JfuzvBRn7m50QWWNwMa9-0" />
@@ -1471,7 +1471,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="경보제어" id="PNdastdH3CW2tXbOMsol">
+  <diagram name="34현시-경보제어" id="PNdastdH3CW2tXbOMsol">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="_TH3PhDzyKe7O9FVW-jf-0" />
@@ -1681,7 +1681,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="통신제어(수신)" id="MNtovgYQoWLEVoCEk8dR">
+  <diagram name="34현시-통신제어(수신)" id="MNtovgYQoWLEVoCEk8dR">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="27vajrFMXb3Y_b7T-CQL-0" />
@@ -1863,7 +1863,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="통신제어(송신)" id="FmNaC4WDyIPDa3zYb-zi">
+  <diagram name="34현시-통신제어(송신)" id="FmNaC4WDyIPDa3zYb-zi">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="1a7G7LhOjeRVyo8FUYHt-0" />
@@ -2095,7 +2095,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="고장정보로직직" id="7PBwV-TRpAEEl1G0CI8A">
+  <diagram name="34현시-고장정보로직직" id="7PBwV-TRpAEEl1G0CI8A">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9B9fs73QhCxAPTV-9ZPv-0" />
@@ -2335,7 +2335,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="통신제어(송신)_bak" id="0WbyUqJabxPTWOd3SMy9">
+  <diagram name="34현시-통신제어(송신)_bak" id="0WbyUqJabxPTWOd3SMy9">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WULDpAhUbFoE8WIX5EqT-0" />
