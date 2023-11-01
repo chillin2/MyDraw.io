@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T00:12:22.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="7yL9POP0WA0d2j5y5z2d" version="22.0.8" type="github" pages="8">
-  <diagram name="신호제어로직" id="G2jBfZiijnxDi7uMoeEo">
-    <mxGraphModel dx="1096" dy="645" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-11-01T00:14:00.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="Yiky4Taa7VL9ocP9qlIq" version="22.0.8" type="github" pages="8">
+  <diagram name="3현시-신호제어로직" id="G2jBfZiijnxDi7uMoeEo">
+    <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-0" />
         <mxCell id="HRK4YUY4a56FCwcSoxxM-1" parent="HRK4YUY4a56FCwcSoxxM-0" />
@@ -1057,8 +1057,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="신호현시로직" id="B5FuGDLu49UilJpqST1V">
-    <mxGraphModel dx="1096" dy="645" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="3현시-신호현시로직" id="B5FuGDLu49UilJpqST1V">
+    <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6UPrmxei2MnN2lRaHue7-0" />
         <mxCell id="6UPrmxei2MnN2lRaHue7-1" parent="6UPrmxei2MnN2lRaHue7-0" />
