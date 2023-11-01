@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T00:53:48.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="6YRYTUGvjlJFl907ENhx" version="22.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-01T00:54:27.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="YOvxEDx0j6D4zMc-Omng" version="22.0.8" type="github" pages="8">
   <diagram name="3현시-신호제어로직" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1548,7 +1548,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="경보제어" id="PNdastdH3CW2tXbOMsol">
-    <mxGraphModel dx="1096" dy="645" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="_TH3PhDzyKe7O9FVW-jf-0" />
         <mxCell id="_TH3PhDzyKe7O9FVW-jf-1" parent="_TH3PhDzyKe7O9FVW-jf-0" />
