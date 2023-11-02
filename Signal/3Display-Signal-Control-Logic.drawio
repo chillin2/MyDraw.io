@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T00:55:37.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="_e0RZ01bK9zeSyjIqfFw" version="22.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-02T00:55:49.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="_R2uWZhS6kdCaqLrfQhp" version="22.0.8" type="github" pages="6">
   <diagram name="34현시-신호제어로직" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1863,7 +1863,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="34현시-통신제어(송신)_bak" id="0WbyUqJabxPTWOd3SMy9">
+  <diagram name="34현시-통신제어(송신)" id="0WbyUqJabxPTWOd3SMy9">
     <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WULDpAhUbFoE8WIX5EqT-0" />
