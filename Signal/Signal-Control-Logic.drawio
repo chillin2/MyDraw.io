@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T05:08:34.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="1CDnslZQPnak0CJgjKDR" version="22.0.8" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-03T05:09:39.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="WdbR4Ocd-uFjV-YdlFBr" version="22.0.8" type="github" pages="10">
   <diagram name="신호제어로직(최종)" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2639,8 +2639,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="통신제어(송신)_bak" id="0WbyUqJabxPTWOd3SMy9">
-    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="통신제어(송신)_all" id="0WbyUqJabxPTWOd3SMy9">
+    <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WULDpAhUbFoE8WIX5EqT-0" />
         <mxCell id="WULDpAhUbFoE8WIX5EqT-1" parent="WULDpAhUbFoE8WIX5EqT-0" />
@@ -3075,10 +3075,10 @@
         <mxCell id="w-vlI6BWpfgUv6OrkUYH-77" value="8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
           <mxGeometry x="6" y="735" width="18" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="8w_QItESUEHdWM0lPIbg-0" value="FLR.AR(0)&lt;br&gt;FLR.RR(2000)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="WULDpAhUbFoE8WIX5EqT-1">
+        <mxCell id="8w_QItESUEHdWM0lPIbg-0" value="FLR.AR(0)&lt;br&gt;FLR.RR(2000)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
           <mxGeometry x="763" y="425" width="77" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="8w_QItESUEHdWM0lPIbg-1" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;startSize=3;endSize=3;sourcePerimeterSpacing=0;strokeColor=default;shape=connector;jumpStyle=none;jumpSize=6;" edge="1" parent="WULDpAhUbFoE8WIX5EqT-1">
+        <mxCell id="8w_QItESUEHdWM0lPIbg-1" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;startSize=3;endSize=3;sourcePerimeterSpacing=0;strokeColor=default;shape=connector;jumpStyle=none;jumpSize=6;" parent="WULDpAhUbFoE8WIX5EqT-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="756" y="445" as="sourcePoint" />
             <mxPoint x="840" y="445" as="targetPoint" />
@@ -3088,17 +3088,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8w_QItESUEHdWM0lPIbg-2" value="FLR.RR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="WULDpAhUbFoE8WIX5EqT-1">
+        <mxCell id="8w_QItESUEHdWM0lPIbg-2" value="FLR.RR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
           <mxGeometry x="121" y="645" width="40" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="8w_QItESUEHdWM0lPIbg-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;" vertex="1" parent="WULDpAhUbFoE8WIX5EqT-1">
+        <mxCell id="8w_QItESUEHdWM0lPIbg-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
           <mxGeometry x="129.5" y="659" width="21" height="11" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="신호제어로직(이전)">
-    <mxGraphModel dx="1080" dy="708" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
