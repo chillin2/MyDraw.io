@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T01:38:46.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="UZRV-sjIu7mmIGgLImno" version="22.1.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-14T01:40:16.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="cPfXy4YOyx_uv_fCLUgD" version="22.1.0" type="github" pages="8">
   <diagram name="신호제어로직(최종)" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2193,30 +2193,6 @@
               <mxPoint x="532" y="488" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-24" value="FP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="289" y="420" width="40" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-25" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="297.5" y="434" width="21" height="11" as="geometry" />
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-26" value="FP1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="345" y="421" width="40" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-27" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;direction=west;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="353.5" y="446" width="21" height="11" as="geometry" />
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-28" value="Y1LMR-M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="394" y="420" width="54" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-29" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="409.5" y="434" width="21" height="11" as="geometry" />
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-30" value="YLMR-M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="451" y="420" width="54" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="w-vlI6BWpfgUv6OrkUYH-31" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
-          <mxGeometry x="465.5" y="434" width="21" height="11" as="geometry" />
         </mxCell>
         <mxCell id="w-vlI6BWpfgUv6OrkUYH-32" value="FP3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="WULDpAhUbFoE8WIX5EqT-1" vertex="1">
           <mxGeometry x="289" y="463" width="40" height="15" as="geometry" />
