@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T01:29:55.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="4QGebKNImuDaHPKfwtRE" version="22.1.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-14T01:30:25.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="GGQdIEi5ZsxItig5z7Lb" version="22.1.0" type="github" pages="8">
   <diagram name="신호제어로직(최종)" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1122,12 +1122,6 @@
               <mxPoint x="756" y="378" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6UPrmxei2MnN2lRaHue7-45" value="GE1U" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="6UPrmxei2MnN2lRaHue7-1" vertex="1">
-          <mxGeometry x="681" y="351" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="6UPrmxei2MnN2lRaHue7-46" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;direction=east;" parent="6UPrmxei2MnN2lRaHue7-1" vertex="1">
-          <mxGeometry x="688" y="348" width="24" height="48" as="geometry" />
         </mxCell>
         <mxCell id="6UPrmxei2MnN2lRaHue7-47" value="FP3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="6UPrmxei2MnN2lRaHue7-1" vertex="1">
           <mxGeometry x="456" y="356" width="40" height="20" as="geometry" />
