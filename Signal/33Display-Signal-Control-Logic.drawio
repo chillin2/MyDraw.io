@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T02:43:48.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="LVMgoOhISTNxYeOfAgo8" version="22.1.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-14T02:44:53.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="IJJ1gMaDvDUvyOJ4X9GC" version="22.1.0" type="github" pages="8">
   <diagram name="신호제어로직(최종)" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -200,9 +200,6 @@
         </mxCell>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-73" value="FP1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
           <mxGeometry x="512" y="816" width="40" height="9" as="geometry" />
-        </mxCell>
-        <mxCell id="HRK4YUY4a56FCwcSoxxM-74" value="EH2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
-          <mxGeometry x="624" y="816" width="40" height="9" as="geometry" />
         </mxCell>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-75" value="EH1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
           <mxGeometry x="568" y="817" width="40" height="8" as="geometry" />
@@ -489,9 +486,6 @@
         </mxCell>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-155" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;direction=west;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
           <mxGeometry x="577" y="839" width="21" height="11" as="geometry" />
-        </mxCell>
-        <mxCell id="HRK4YUY4a56FCwcSoxxM-156" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;direction=east;" parent="HRK4YUY4a56FCwcSoxxM-1" vertex="1">
-          <mxGeometry x="633" y="827.5" width="21" height="11" as="geometry" />
         </mxCell>
         <mxCell id="HRK4YUY4a56FCwcSoxxM-157" value="" style="endArrow=none;html=1;rounded=0;" parent="HRK4YUY4a56FCwcSoxxM-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
