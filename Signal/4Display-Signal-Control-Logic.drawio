@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T04:45:29.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="tdYSh2ko7Cls7AqjZ7pN" version="22.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-14T07:45:22.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="-reFQdby_9oLTPj-DRU1" version="22.1.0" type="github" pages="6">
   <diagram name="신호제어로직(최종)" id="G2jBfZiijnxDi7uMoeEo">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1275,7 +1275,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ATS제어" id="--doO0_pMfnhSOSk5F13">
-    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="JfuzvBRn7m50QWWNwMa9-0" />
         <mxCell id="JfuzvBRn7m50QWWNwMa9-1" parent="JfuzvBRn7m50QWWNwMa9-0" />
@@ -1297,7 +1297,7 @@
         <mxCell id="JfuzvBRn7m50QWWNwMa9-18" value="FP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="JfuzvBRn7m50QWWNwMa9-1" vertex="1">
           <mxGeometry x="175" y="57" width="40" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="JfuzvBRn7m50QWWNwMa9-20" value="ATS-YY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="JfuzvBRn7m50QWWNwMa9-1" vertex="1">
+        <mxCell id="JfuzvBRn7m50QWWNwMa9-20" value="ATS-R1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="JfuzvBRn7m50QWWNwMa9-1" vertex="1">
           <mxGeometry x="784" y="67" width="47" height="13" as="geometry" />
         </mxCell>
         <mxCell id="JfuzvBRn7m50QWWNwMa9-21" value="" style="endArrow=none;html=1;rounded=0;" parent="JfuzvBRn7m50QWWNwMa9-1" edge="1">
@@ -1981,7 +1981,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="통신제어(송신)_all" id="0WbyUqJabxPTWOd3SMy9">
-    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="720" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WULDpAhUbFoE8WIX5EqT-0" />
         <mxCell id="WULDpAhUbFoE8WIX5EqT-1" parent="WULDpAhUbFoE8WIX5EqT-0" />
