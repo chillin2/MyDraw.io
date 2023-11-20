@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T06:45:08.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="J_ICRjApJJRhbVIWfs7m" version="22.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-20T07:02:11.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="QMrk6OfD07vrWmPefTAc" version="22.1.3" type="github" pages="3">
   <diagram name="Signal-Task-Context" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">
     <mxGraphModel dx="1626" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
             <mxRectangle x="310" y="300" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="__h1k2DaobeTYKF2tzdN-7" value="신호제어 Task" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="__h1k2DaobeTYKF2tzdN-7" value="온습도 Task" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="216" width="110" height="80" as="geometry">
             <mxRectangle x="310" y="300" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
