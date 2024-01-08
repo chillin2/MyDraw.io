@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T05:31:14.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="tdXACDNWOBUNjTmTXsaf" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T06:16:11.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="J9G4S9b6QXqkr0RyD7_n" version="22.1.16" type="github" pages="2">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="1125" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1610" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,6 +60,26 @@
         </mxCell>
         <mxCell id="Bs_QZ7SmaoqHRqGBBxqq-12" value="Self-Test Library" style="rounded=0;shadow=1;fontStyle=1;fontSize=24;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="570" y="754" width="110" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="455bVY7fYw622vmdx8sA" name="IO-Module-Block-Diagram">
+    <mxGraphModel dx="676" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_B_MI62m7lRFY5nyLYBk-1" value="EABS I/O Module Software" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="350" width="460" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_B_MI62m7lRFY5nyLYBk-2" value="H/W" style="rounded=0;shadow=1;fontStyle=1;fontSize=28;align=center;verticalAlign=middle;spacing=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="670" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_B_MI62m7lRFY5nyLYBk-3" value="Device Driver" style="rounded=0;shadow=1;fontStyle=1;fontSize=24;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="590" width="442" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_B_MI62m7lRFY5nyLYBk-4" value="EABS I/O Module Application" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="380" width="440" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
