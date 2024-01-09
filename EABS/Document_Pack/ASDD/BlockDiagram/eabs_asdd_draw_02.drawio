@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T09:31:51.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="DRjIJxM9CfpST6vLVCdb" version="22.1.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:32:22.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="10thtMitNNch3SXiumRl" version="22.1.17" type="github" pages="3">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -137,7 +137,7 @@
             <mxPoint x="236" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-10" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-10" value="vRS485_Recv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="327" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-10">
@@ -146,7 +146,7 @@
             <mxPoint x="236" y="384" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-12" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-12" value="vChannel_Master_Recv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="385" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-12">
