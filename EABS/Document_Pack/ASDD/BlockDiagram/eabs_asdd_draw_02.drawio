@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T09:32:22.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="10thtMitNNch3SXiumRl" version="22.1.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:36:40.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="3sR6PexJ9-FPHfY6069b" version="22.1.17" type="github" pages="3">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -89,6 +89,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-36" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="45" width="290" height="1035" as="geometry" />
+        </mxCell>
         <mxCell id="Xisn77rioX8W527mqWxI-2" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="153" y="95" width="170" height="35" as="geometry" />
         </mxCell>
@@ -102,13 +105,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Xisn77rioX8W527mqWxI-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="50" width="280" height="340" as="geometry" />
+          <mxGeometry x="422" y="60" width="280" height="340" as="geometry" />
         </mxCell>
         <mxCell id="Xisn77rioX8W527mqWxI-23" value="Interrupt&amp;nbsp; Routines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="446" y="60" width="127" height="30" as="geometry" />
+          <mxGeometry x="422" y="70" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xisn77rioX8W527mqWxI-29" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="128" width="150" height="30" as="geometry" />
+          <mxGeometry x="487" y="138" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-4" value="Initialize global variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="152" y="153" width="170" height="35" as="geometry" />
@@ -155,7 +158,7 @@
             <mxPoint x="235" y="442" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-14" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-14" value="vChannel_Slave_Recv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="442" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-14">
@@ -164,7 +167,7 @@
             <mxPoint x="235" y="499" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-16" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-16" value="vCAN0InOutProcess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="149" y="500" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-16">
@@ -173,7 +176,7 @@
             <mxPoint x="234" y="557" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-18" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-18" value="vDisplayFndPoll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="149" y="557" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-18">
@@ -182,7 +185,7 @@
             <mxPoint x="234" y="614" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-20" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-20" value="vChOut2Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="148" y="615" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-20">
@@ -191,7 +194,7 @@
             <mxPoint x="233" y="672" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-22" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-22" value="vChannel_Send01_Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="148" y="672" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-22">
@@ -200,7 +203,7 @@
             <mxPoint x="233" y="729" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9ecZK-UZPm5lxIUy5vb-24" value="Initialize hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-24" value="vChannel_Common01_Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="147" y="730" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-24">
@@ -208,6 +211,51 @@
             <mxPoint x="357" y="985" as="sourcePoint" />
             <mxPoint x="232" y="787" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="232" y="765" as="sourcePoint" />
+            <mxPoint x="232" y="787" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-27" value="vPort_IN1_8Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147" y="787" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357" y="1042" as="sourcePoint" />
+            <mxPoint x="232" y="844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-29" value="vCpuIn05Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="845" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="356" y="1100" as="sourcePoint" />
+            <mxPoint x="231" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-31" value="vInCpuRS485_Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="902" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="356" y="1157" as="sourcePoint" />
+            <mxPoint x="231" y="959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-33" value="vLEDRunFailPoll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="960" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T9ecZK-UZPm5lxIUy5vb-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="1215" as="sourcePoint" />
+            <mxPoint x="230" y="1017" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9ecZK-UZPm5lxIUy5vb-35" value="vPSU_ErrorCheck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1019" width="170" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
