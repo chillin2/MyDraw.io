@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T00:37:22.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="tGuv8-KIHXZ0IObyupwk" version="22.1.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-10T00:38:24.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="sFfUJrUkC2Hc3eG-1n29" version="22.1.17" type="github" pages="3">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1127" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -102,13 +102,13 @@
           <mxGeometry x="153" y="95" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Xisn77rioX8W527mqWxI-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="422" y="60" width="278" height="280" as="geometry" />
+          <mxGeometry x="400" y="60" width="278" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Xisn77rioX8W527mqWxI-23" value="Interrupt&amp;nbsp; Routines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="425" y="70" width="127" height="30" as="geometry" />
+          <mxGeometry x="403" y="70" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xisn77rioX8W527mqWxI-29" value="USART2_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="138" width="177" height="30" as="geometry" />
+          <mxGeometry x="448" y="138" width="177" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-4" value="Initialize global variable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="152" y="140" width="170" height="35" as="geometry" />
@@ -159,10 +159,10 @@
           <mxGeometry x="151" y="804" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-37" value="USART5_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="188" width="178" height="30" as="geometry" />
+          <mxGeometry x="448" y="188" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-38" value="CAN0_RX1_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="238" width="178" height="30" as="geometry" />
+          <mxGeometry x="448" y="238" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T9ecZK-UZPm5lxIUy5vb-43" value="IO Application" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="30" width="120" height="30" as="geometry" />
