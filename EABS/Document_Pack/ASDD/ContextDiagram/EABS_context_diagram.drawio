@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T05:27:30.187Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="cT5ygN2PM_98YRHJAbR6" version="22.1.16" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-25T05:36:50.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="xPE-cRXK2WREs_vvAUGY" version="22.1.18" type="github" pages="4">
   <diagram name="Signal-Task-Context" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">
-    <mxGraphModel dx="1127" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,7 +135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-v4oI8v-hJuGYwdib2Qm" name="CPU-Module-Context00">
-    <mxGraphModel dx="1127" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="998" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,7 +218,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1-F0RAIBBJJ2dLUXaFQl" name="CPU-Module-Context01">
-    <mxGraphModel dx="1127" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="998" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,7 +274,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CHEzE85NZ97Uv7l-En9l" name="Init Hardware">
-    <mxGraphModel dx="1127" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -301,43 +301,6 @@
         </mxCell>
         <mxCell id="HlnMLlE-UpM2gQ3mRA2n-10" value="Initialize Timer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="237" y="414" width="170" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="tbSSoe9PW7t2vY1x2LAe" name="Overall-Sw-Structure">
-    <mxGraphModel dx="1127" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="1vFXesZBgT-xwvv1jr3c-1" value="EABS Software" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1vFXesZBgT-xwvv1jr3c-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="1vFXesZBgT-xwvv1jr3c-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="350" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="290" y="290" />
-              <mxPoint x="390" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1vFXesZBgT-xwvv1jr3c-3" value="CPU Module SW" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1vFXesZBgT-xwvv1jr3c-4" value="IO Module SW" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1vFXesZBgT-xwvv1jr3c-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="1vFXesZBgT-xwvv1jr3c-4" target="1vFXesZBgT-xwvv1jr3c-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="360" as="sourcePoint" />
-            <mxPoint x="400" y="260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="490" y="290" />
-              <mxPoint x="390" y="290" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
