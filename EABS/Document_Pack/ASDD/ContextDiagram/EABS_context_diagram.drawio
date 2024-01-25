@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T05:40:53.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="t_VuCRtQK5XFiUW2fbsY" version="22.1.18" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-25T05:42:00.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="g7JNt8sfCylYhTmbrBiE" version="22.1.18" type="github" pages="5">
   <diagram name="Signal-Task-Context" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -273,38 +273,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CHEzE85NZ97Uv7l-En9l" name="Init Hardware">
-    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-3" value="Initialize CPU Module&lt;br&gt;Initialize Hardware" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="220" y="100" width="210" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-4" value="Initialize RCC" style="rounded=0;whiteSpace=wrap;html=1;" parent="HlnMLlE-UpM2gQ3mRA2n-3" vertex="1">
-          <mxGeometry x="20" y="57" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-5" value="Initialize GPIO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="200" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-6" value="Initialize UART" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="238" y="242" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-7" value="Initialize CAN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="238" y="285" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-8" value="Initialize SPI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="237" y="328" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-9" value="Initialize RTC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="237" y="372" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-10" value="Initialize Timer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="237" y="414" width="170" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="zFkdMjTFS9Db0EL8D4go" name="RTOS - Context Diagram">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -374,6 +342,38 @@
               <mxPoint x="769" y="205" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CHEzE85NZ97Uv7l-En9l" name="Init Hardware">
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-3" value="Initialize CPU Module&lt;br&gt;Initialize Hardware" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
+          <mxGeometry x="220" y="100" width="210" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-4" value="Initialize RCC" style="rounded=0;whiteSpace=wrap;html=1;" parent="HlnMLlE-UpM2gQ3mRA2n-3" vertex="1">
+          <mxGeometry x="20" y="57" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-5" value="Initialize GPIO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="239" y="200" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-6" value="Initialize UART" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="238" y="242" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-7" value="Initialize CAN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="238" y="285" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-8" value="Initialize SPI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="328" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-9" value="Initialize RTC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="372" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlnMLlE-UpM2gQ3mRA2n-10" value="Initialize Timer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="414" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
