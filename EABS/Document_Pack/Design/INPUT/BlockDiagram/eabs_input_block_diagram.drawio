@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T07:23:34.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="jOEYn4P7vZk02U5LO1tD" version="23.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-26T07:24:02.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="L85qM8W-mXIXiuZg6wqd" version="23.0.1" type="github" pages="5">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="998" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="JroDJEas-RoF1u3BaSrB" name="IO - INPUT 계층구조">
+  <diagram id="JroDJEas-RoF1u3BaSrB" name="IO - INPUT 소프트웨어 계층구조">
     <mxGraphModel dx="998" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
