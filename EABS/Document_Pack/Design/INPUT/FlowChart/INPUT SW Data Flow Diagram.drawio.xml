@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2024-01-30T06:38:33.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="r4CBTfz8GCNs2DQ89J1h" version="23.0.2" type="device" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-30T08:24:01.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="JOkRN_AntMnL5aLId-E7" version="23.0.2" type="github" pages="10">
   <diagram id="D0PGXv35O40CLdUZsH8Q" name="EABS-IN-SWF01">
     <mxGraphModel dx="1001" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +120,7 @@
             <mxPoint x="440" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CImVvAV6TJU3EQF2b9_t-1" value="stCAN_H (구조체)&lt;br&gt;uiNoti_CAN0&lt;br&gt;stbsys01 (구조체)&lt;br&gt;ucBoardAddress&lt;br&gt;" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+        <mxCell id="CImVvAV6TJU3EQF2b9_t-1" value="stCAN_H (구조체)&lt;br&gt;stbsys01 (구조체)&lt;br&gt;ucBoardAddress" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
           <mxGeometry x="90" y="340" width="173" height="78.75" as="geometry" />
         </mxCell>
         <mxCell id="CImVvAV6TJU3EQF2b9_t-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="CImVvAV6TJU3EQF2b9_t-1" target="ylLycW9XjfDxTG9szjeK-3" edge="1">
