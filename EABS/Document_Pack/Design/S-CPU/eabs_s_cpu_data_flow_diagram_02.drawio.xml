@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-02-02T05:00:02.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="xgssDxHozqydHtB7Aota" version="23.1.1" type="device" pages="8">
+  <diagram id="UJKP9k8SlPqIgkpt9fS9" name="EABS-SCPU-SWF08">
+    <mxGraphModel dx="1002" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="03SxYI2QrN46SJvLjeSi-1" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;GpioPollTask&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="464" y="20" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-2" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="340" y="130" width="600" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-3" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T8-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vCheckFB_OUT12&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="400" y="210" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-4" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T8-C2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vPort_IN1_2_Process&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="660" y="200" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-5" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T8-C3]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vLed_Poll01&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="420" y="460" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-6" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T8-C4]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vFieldInput06_Poll&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="664" y="440" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-7" value="GPIO (PJ2)" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-8" value="GPIO (PJ4)" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-9" value="uxFB_OUT1Tmr&lt;br&gt;xOldCH_FB_OUT1_Pin&lt;br&gt;uxFB_OUT1Count&lt;br&gt;ucFB_OUT1Prnt&lt;br&gt;ucSetVCR1_Enable&lt;br&gt;stbsys01 (구조체)&lt;br&gt;uxFB_OUT2Tmr&lt;br&gt;xOldCH_FB_OUT2_Pin&lt;br&gt;uxFB_OUT2Count&lt;br&gt;ucFB_OUT2Prnt" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="173" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-3" target="03SxYI2QrN46SJvLjeSi-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.051;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-3" target="03SxYI2QrN46SJvLjeSi-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="03SxYI2QrN46SJvLjeSi-9" target="03SxYI2QrN46SJvLjeSi-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="281" y="346" as="sourcePoint" />
+            <mxPoint x="331" y="296" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="331" y="346" />
+              <mxPoint x="281" y="296" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-13" value="GPIO (PI12)" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-14" value="GPIO (PI14)" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-15" value="GPIO (PI11)" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-16" value="GPIO (PI13)" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-4" target="03SxYI2QrN46SJvLjeSi-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="390" as="sourcePoint" />
+            <mxPoint x="830" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.8;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-4" target="03SxYI2QrN46SJvLjeSi-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="390" as="sourcePoint" />
+            <mxPoint x="830" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-4" target="03SxYI2QrN46SJvLjeSi-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="390" as="sourcePoint" />
+            <mxPoint x="830" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.997;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-4" target="03SxYI2QrN46SJvLjeSi-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="390" as="sourcePoint" />
+            <mxPoint x="830" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-21" value="aucInBoardPort&lt;br&gt;st_IN1_2 (구조체)&lt;br&gt;ucMV600&lt;br&gt;ucFUSE" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="320" width="173" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-4" target="03SxYI2QrN46SJvLjeSi-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="936" y="391" as="sourcePoint" />
+            <mxPoint x="986" y="341" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="986" y="391" />
+              <mxPoint x="936" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-23" value="LED (PE3)" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-24" value="xLedp_tt (구조체)&lt;br&gt;stbsys01 (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="90" y="610" width="173" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="03SxYI2QrN46SJvLjeSi-24" target="03SxYI2QrN46SJvLjeSi-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="649" as="sourcePoint" />
+            <mxPoint x="364" y="599" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="649" />
+              <mxPoint x="314" y="599" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="03SxYI2QrN46SJvLjeSi-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="420" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-27" value="xFIn06 (구조체)&lt;br&gt;ucFIn06_First&lt;br&gt;xCON (구조체)&lt;br&gt;xTPR (구조체)&lt;br&gt;xSDN (구조체)&lt;br&gt;xEMS (구조체)&lt;br&gt;xATS (구조체)&lt;br&gt;xTESTEH123 (구조체)&lt;br&gt;xLMR_M (구조체)&lt;br&gt;xLMR_A (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="520" width="173" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="03SxYI2QrN46SJvLjeSi-28" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="03SxYI2QrN46SJvLjeSi-6" target="03SxYI2QrN46SJvLjeSi-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="926" y="620" as="sourcePoint" />
+            <mxPoint x="976" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="976" y="620" />
+              <mxPoint x="926" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mMk_cHwIY1x6jjTgWiLL" name="EABS-SCPU-SWF09">
+    <mxGraphModel dx="1209" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-1" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;vOutRComp02Task&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="30" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-2" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="420" y="110" width="460" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-3" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T9-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vSet_OutRComp02&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="430" y="240" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-4" value="uxOutRelayCompCycleTmr&lt;br&gt;uxOutRComp02Loop" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="960" y="80" width="173" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-YOWMyDut8PcvVuVvb2e-2" target="-YOWMyDut8PcvVuVvb2e-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="510" as="sourcePoint" />
+            <mxPoint x="740" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-6" value="stOutRComp02 (구조체)&lt;br&gt;stSCRS422_Send (구조체)&lt;br&gt;stbsys01 (구조체)&lt;br&gt;st_Ch_tt (구조체)&lt;br&gt;st_SysMig (구조체)&lt;br&gt;ucSys12Check&lt;br&gt;&lt;div&gt;xR_Relay (구조체)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;xV_Relay (구조체)&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="440" width="173" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-7" value="USART1" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-YOWMyDut8PcvVuVvb2e-7" target="-YOWMyDut8PcvVuVvb2e-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="470" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YOWMyDut8PcvVuVvb2e-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="-YOWMyDut8PcvVuVvb2e-6" target="-YOWMyDut8PcvVuVvb2e-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="446" as="sourcePoint" />
+            <mxPoint x="373" y="396" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="373" y="446" />
+              <mxPoint x="323" y="396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vnbN4VQQEfpza13Y_ybB-1" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T9-C2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;GetuiRunStaSignalTask&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="660" y="240" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vnbN4VQQEfpza13Y_ybB-2" value="uiRunStaSignalTask" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="960" y="330" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vnbN4VQQEfpza13Y_ybB-3" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=18;curved=1;jumpStyle=arc;exitX=0.995;exitY=0.542;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vnbN4VQQEfpza13Y_ybB-1" target="vnbN4VQQEfpza13Y_ybB-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="330" as="sourcePoint" />
+            <mxPoint x="770" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="N_N2gB4dCtQ5cKooZta8" name="EABS-SCPU-SWF10">
+    <mxGraphModel dx="1209" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-1" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="310" y="140" width="560" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-2" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T10-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;udp1123_parse22&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="370" y="220" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-3" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;udp1123&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6177&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="30" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-4" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T10-C2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ust_acku1123&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="637" y="230" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Tj87w4l8ZSTYBOgfVBO_-2" target="dlZh3gRZGZE42GDzHJnw-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="750" as="sourcePoint" />
+            <mxPoint x="780" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-6" value="st_udp1123_tt (구조체)&lt;br&gt;uxUDP1123_Tmr&lt;br&gt;udpheader&lt;br&gt;ctx_cbc_dec (구조체)&lt;br&gt;symmetric_key&lt;br&gt;iv_key" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="70" y="160" width="173" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ethernet UDP Port : 1123&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="770" y="790" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dlZh3gRZGZE42GDzHJnw-1" target="dlZh3gRZGZE42GDzHJnw-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="640" as="sourcePoint" />
+            <mxPoint x="480" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dlZh3gRZGZE42GDzHJnw-9" value="st_udp1123_tt (구조체)&lt;br&gt;usa1123&lt;br&gt;acudp1123Buffer&lt;br&gt;iv_key&lt;br&gt;st_NBinfo_tt (구조체)&lt;br&gt;aucgCurrTime" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="993.5" y="300" width="173" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-2" value="st_udp1123_tt (구조체)&lt;br&gt;acudp1123Buffer&lt;br&gt;udp1123Socket" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="503.5" y="790" width="173" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ethernet UDP Port : 1123&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dlZh3gRZGZE42GDzHJnw-4" target="Tj87w4l8ZSTYBOgfVBO_-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="550" as="sourcePoint" />
+            <mxPoint x="960" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-10" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T10-C3]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;set_Setconfigip&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="390" y="450" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-12" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T10-C4]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;st_csfield02_res2&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="620" y="440" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="dlZh3gRZGZE42GDzHJnw-4" target="dlZh3gRZGZE42GDzHJnw-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="889" y="363" as="sourcePoint" />
+            <mxPoint x="939" y="313" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="939" y="363" />
+              <mxPoint x="889" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="dlZh3gRZGZE42GDzHJnw-6" target="dlZh3gRZGZE42GDzHJnw-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="246" as="sourcePoint" />
+            <mxPoint x="349" y="196" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="349" y="246" />
+              <mxPoint x="299" y="196" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-17" value="xSetconfig (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="640" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="Tj87w4l8ZSTYBOgfVBO_-17" target="Tj87w4l8ZSTYBOgfVBO_-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="649" as="sourcePoint" />
+            <mxPoint x="355" y="599" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="649" />
+              <mxPoint x="305" y="599" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-19" value="xst_csfield02 (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="970" y="500" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj87w4l8ZSTYBOgfVBO_-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="Tj87w4l8ZSTYBOgfVBO_-12" target="Tj87w4l8ZSTYBOgfVBO_-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="867" y="557" as="sourcePoint" />
+            <mxPoint x="917" y="507" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="917" y="557" />
+              <mxPoint x="867" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uQ4HXssK5Id_S9tvyZU3" name="EABS-SCPU-SWF11">
+    <mxGraphModel dx="1209" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-1" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="370" y="150" width="450" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-2" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T11-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;udpSetconfig_parse&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-3" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;udpSetconfig&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6177&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-4" value="xSetconfigv (구조체)&lt;br&gt;pcSetconfigBuff&lt;br&gt;udpSetconfigSoc&lt;br&gt;usSetconfigPort&lt;br&gt;xSetconfigIpAddr" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680.1" width="173" height="99.9" as="geometry" />
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4oBibIX7bzxPLFw7W7nN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="711.5" y="780.1" as="sourcePoint" />
+            <mxPoint x="586.5" y="600.0999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ethernet UDP Port : 1125&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="721.5" y="680.1" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4oBibIX7bzxPLFw7W7nN-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="726.6566149062064" y="560.0024750820521" as="sourcePoint" />
+            <mxPoint x="461.5" y="520.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-8" value="xSetconfigv (구조체)&lt;br&gt;Eabs_DB_Buf&lt;br&gt;xSetconfig (구조체)&lt;br&gt;pcSetconfigBuff" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="173" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4oBibIX7bzxPLFw7W7nN-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="4oBibIX7bzxPLFw7W7nN-8" target="4oBibIX7bzxPLFw7W7nN-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="293" y="389" as="sourcePoint" />
+            <mxPoint x="343" y="339" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="343" y="389" />
+              <mxPoint x="293" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="c9XnrwmfIEIzUPU-A1uk" name="EABS-SCPU-SWF12">
+    <mxGraphModel dx="1209" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bcRzjLELV8BGwW1NxBh--1" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="337" y="140" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--2" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T12-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vAck_tepsFieldUdp&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="380" y="220" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--3" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;tepsFieldUdp&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6177&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="40" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--4" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T12-C2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vCheck_UdpAck&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="627" y="210" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--5" value="actepsUdpBuff&lt;br&gt;tepsUdpSocket&lt;br&gt;uiRetAck01" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="520.5" y="760" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ethernet UDP Port : 14152&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="730" y="760" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="bcRzjLELV8BGwW1NxBh--5" target="bcRzjLELV8BGwW1NxBh--1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="610" as="sourcePoint" />
+            <mxPoint x="400" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bcRzjLELV8BGwW1NxBh--1" target="bcRzjLELV8BGwW1NxBh--6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="610" as="sourcePoint" />
+            <mxPoint x="400" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--9" value="actepsUdpBuff" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="980" y="250" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bcRzjLELV8BGwW1NxBh--11" value="actepsUdpBuff&lt;br&gt;acTEInDataBuf&lt;br&gt;uiRetAck01&lt;br&gt;xcs (구조체)&lt;br&gt;stSEspiSend_t (구조체)&lt;br&gt;st_inData03 (구조체)&lt;br&gt;xinData05 (구조체)&lt;br&gt;st_ReverseSignal (구조체)&lt;br&gt;xse_eabs_pstt (구조체)&lt;br&gt;st_prcssData (구조체)&lt;br&gt;st_field_iob (구조체)&lt;br&gt;" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="173" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-1" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T12-C3]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ucGet_csdevice&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="400" y="440" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-2" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T12-C4]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;uiTimeset_22h&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="640" y="420" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ethernet UDP Port : 14152&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="80" y="390" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="bcRzjLELV8BGwW1NxBh--11" target="bcRzjLELV8BGwW1NxBh--2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="272" as="sourcePoint" />
+            <mxPoint x="355" y="222" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="272" />
+              <mxPoint x="305" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bcRzjLELV8BGwW1NxBh--2" target="9KLyKEpMg8OOoXT3VgI8-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="460" as="sourcePoint" />
+            <mxPoint x="540" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-6" value="xcs (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="630" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="9KLyKEpMg8OOoXT3VgI8-6" target="9KLyKEpMg8OOoXT3VgI8-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="331" y="632" as="sourcePoint" />
+            <mxPoint x="381" y="582" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="381" y="632" />
+              <mxPoint x="331" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-9" value="xse_eabs_pstt (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="960" y="490" width="173" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="bcRzjLELV8BGwW1NxBh--4" target="bcRzjLELV8BGwW1NxBh--9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="306" as="sourcePoint" />
+            <mxPoint x="925" y="256" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="925" y="306" />
+              <mxPoint x="875" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9KLyKEpMg8OOoXT3VgI8-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="9KLyKEpMg8OOoXT3VgI8-2" target="9KLyKEpMg8OOoXT3VgI8-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="879" y="534" as="sourcePoint" />
+            <mxPoint x="929" y="484" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="929" y="534" />
+              <mxPoint x="879" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="guYssSpTN1eQX54TuF6w" name="EABS-SCPU-SWF13">
+    <mxGraphModel dx="2036" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xPIlNTHEAYSk4MQD005H-1" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="390" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="xPIlNTHEAYSk4MQD005H-2" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T13-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vMonitor_CRC16&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="214" y="265" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xPIlNTHEAYSk4MQD005H-3" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;MonitorUDP&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;5744&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6177&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="273" y="70" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPIlNTHEAYSk4MQD005H-4" value="acMonUdpBuff&lt;br&gt;MonitorudpSoc&lt;br&gt;acSendMonBuf&lt;br&gt;ucAck_Mon_Len&lt;br&gt;ucAck_Mon_enable" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="308.5" y="653" width="173" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xPIlNTHEAYSk4MQD005H-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ethernet UDP Port : 14155&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="527.23" y="657.19" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPIlNTHEAYSk4MQD005H-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xPIlNTHEAYSk4MQD005H-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="284.5" y="510.00000000000006" as="sourcePoint" />
+            <mxPoint x="394.5" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPIlNTHEAYSk4MQD005H-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="xPIlNTHEAYSk4MQD005H-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510.00310260732795" y="520.0011998654245" as="sourcePoint" />
+            <mxPoint x="311.23" y="464.19000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPIlNTHEAYSk4MQD005H-8" value="SRtmpBuffer&lt;br&gt;st_MData_info (구조체)&lt;br&gt;st_f_Monitor (구조체)&lt;br&gt;ucSeqMon10h&lt;br&gt;acSendMonBuf&lt;br&gt;ucAck_Mon_Len&lt;br&gt;ucAck_Mon_enable&lt;br&gt;x_Station_st (구조체)&lt;br&gt;stbsys01 (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="300" width="173" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="yG_dt_iLvKv_i6e8Xt-l-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="xPIlNTHEAYSk4MQD005H-8" target="xPIlNTHEAYSk4MQD005H-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="126" y="395" as="sourcePoint" />
+            <mxPoint x="176" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="176" y="395" />
+              <mxPoint x="126" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jYuz3uIWNJn6VCgBkTwP" name="EABS-SCPU-SWF14">
+    <mxGraphModel dx="1209" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-1" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="480" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-2" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T14-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vIOComm02_poll&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="413" y="300" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-3" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;IOComm02Task&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6177&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="473" y="70" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-4" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T14-C2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vIOBoard_Station_poll&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-5" value="uxIOComm02Loop" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="554" y="710" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pVRd36CPt9YtVQ3XHmrW-5" target="pVRd36CPt9YtVQ3XHmrW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="600" as="sourcePoint" />
+            <mxPoint x="580" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-7" value="iIOBoard_Station_poll_First&lt;br&gt;stbsys01 (구조체)&lt;br&gt;xIOBoard_S (구조체)&lt;br&gt;xIOBoard_Status03_Tmr1&lt;br&gt;st_fcstt (구조체)&lt;br&gt;uiGetStatus_xIOBoard_Tmr&lt;br&gt;ucNotifyBootComplete" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="320" width="173" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="pVRd36CPt9YtVQ3XHmrW-4" target="pVRd36CPt9YtVQ3XHmrW-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="902" y="421" as="sourcePoint" />
+            <mxPoint x="952" y="371" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="952" y="421" />
+              <mxPoint x="902" y="371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-9" value="ucFirstCan1InOutBD&lt;br&gt;stbsys01 (구조체)&lt;br&gt;st_Ch_tt (구조체)&lt;br&gt;st_SCRS422 (구조체)&lt;br&gt;stcanH (구조체)&lt;br&gt;stcanHOut (구조체)&lt;br&gt;ucInputDataIn&lt;br&gt;TxHeader (구조체)&lt;br&gt;RxHeader (구조체)&lt;br&gt;aucTxData_canH&lt;br&gt;aucRxData_canH&lt;br&gt;interruptOccurred&lt;br&gt;old_p1_buf&lt;br&gt;old_p2_buf&lt;br&gt;uiNoti_hfdcan1&lt;br&gt;aucOutBPort&lt;br&gt;aucAckcan1HBuf&lt;br&gt;uiCanSystemSwitch_Count&lt;br&gt;uiNoti_canHOut" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="173" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;CAN&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pVRd36CPt9YtVQ3XHmrW-2" target="pVRd36CPt9YtVQ3XHmrW-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="290" as="sourcePoint" />
+            <mxPoint x="590" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pVRd36CPt9YtVQ3XHmrW-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="pVRd36CPt9YtVQ3XHmrW-9" target="pVRd36CPt9YtVQ3XHmrW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324" y="438" as="sourcePoint" />
+            <mxPoint x="374" y="388" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="374" y="438" />
+              <mxPoint x="324" y="388" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PA_aVsah6ucP0ZiM9rE7" name="EABS-SCPU-SWF15">
+    <mxGraphModel dx="2036" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gs_Zd57juS7uCu-29Lvw-1" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="390" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Gs_Zd57juS7uCu-29Lvw-2" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-SCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-T15-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vStationInput06_Poll&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="244" y="275" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Gs_Zd57juS7uCu-29Lvw-3" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all;&quot; class=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;letter-spacing: 0pt;&quot; lang=&quot;EN-US&quot;&gt;TASK 이름 :&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;StationTmr1Task&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;5744&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6177&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6187&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6183&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6184&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6186&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6182&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="303" y="80" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yczCbWFp0FPAQeU0dbYp-1" value="uxStaTmr1Loops" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="338.5" y="650" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yczCbWFp0FPAQeU0dbYp-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yczCbWFp0FPAQeU0dbYp-1" target="Gs_Zd57juS7uCu-29Lvw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="629" as="sourcePoint" />
+            <mxPoint x="440" y="579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oin3np7Xn3_bnetCe4Op-1" value="ucStaIn06_First&lt;br&gt;ucStaIn06_Cnt&lt;br&gt;ucStaIn06_Enable&lt;br&gt;stbsys01 (구조체)&lt;br&gt;xSIn06 (구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="440" width="173" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3KB_QQdparE_4xqnOeUj-1" value="VCR1A&lt;br&gt;VCR1B&lt;br&gt;VCR2A&lt;br&gt;VCR2B" style="html=1;dashed=0;whitespace=wrap;dashPattern=1 2;strokeColor=#001933;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-53.5" y="230" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3KB_QQdparE_4xqnOeUj-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Oin3np7Xn3_bnetCe4Op-1" target="Gs_Zd57juS7uCu-29Lvw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="142" y="465" as="sourcePoint" />
+            <mxPoint x="192" y="415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="192" y="465" />
+              <mxPoint x="142" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KB_QQdparE_4xqnOeUj-3" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3KB_QQdparE_4xqnOeUj-1" target="Gs_Zd57juS7uCu-29Lvw-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="70" y="300" as="sourcePoint" />
+            <mxPoint x="203" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
