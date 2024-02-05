@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T02:09:04.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="HoQk26ZmixBlkp8oO_fN" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T02:16:13.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="8yMTKy108AJdDxoVEXTZ" version="23.1.1" type="github">
   <diagram name="페이지-1" id="bpLpY4RYHuedJQY9HUiB">
     <mxGraphModel dx="839" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,13 +17,13 @@
           <mxGeometry x="153" y="95" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="pYXkrNghT-1ezKArp8p4-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="60" width="278" height="280" as="geometry" />
+          <mxGeometry x="400" y="60" width="278" height="260" as="geometry" />
         </mxCell>
         <mxCell id="pYXkrNghT-1ezKArp8p4-6" value="Interrupt&amp;nbsp; Routines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="403" y="70" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pYXkrNghT-1ezKArp8p4-7" value="USART2_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="448" y="138" width="177" height="30" as="geometry" />
+          <mxGeometry x="449" y="155.5" width="177" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pYXkrNghT-1ezKArp8p4-8" value="Initialize global variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="152" y="140" width="170" height="35" as="geometry" />
@@ -59,10 +59,10 @@
           <mxGeometry x="151" y="610" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="pYXkrNghT-1ezKArp8p4-19" value="USART5_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="448" y="188" width="178" height="30" as="geometry" />
+          <mxGeometry x="448" y="198" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pYXkrNghT-1ezKArp8p4-20" value="CAN0_RX1_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="448" y="238" width="178" height="30" as="geometry" />
+          <mxGeometry x="449" y="240" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pYXkrNghT-1ezKArp8p4-21" value="Output Board Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="20" width="120" height="40" as="geometry" />
@@ -168,6 +168,9 @@
             <mxPoint x="120" y="671" as="sourcePoint" />
             <mxPoint x="150" y="671" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pYXkrNghT-1ezKArp8p4-41" value="USART0_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="113" width="177" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
