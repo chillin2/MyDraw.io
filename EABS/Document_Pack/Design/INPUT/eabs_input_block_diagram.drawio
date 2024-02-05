@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T01:48:51.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="fXQ5odqtDIjMvZs6WAhc" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-05T02:40:31.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="l8un8V203GyDC6x3ui3T" version="23.1.1" type="github" pages="9">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1002" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -397,7 +397,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="IO - INPUT 소프트웨어 계층구조2" id="-slB9VglObaHwJvWjara">
-    <mxGraphModel dx="1002" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PfBKoKlYES76OOOarIdP-0" />
         <mxCell id="PfBKoKlYES76OOOarIdP-1" parent="PfBKoKlYES76OOOarIdP-0" />
@@ -552,7 +552,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v8hdmbQpEaAxQZEGyBv8" name="IO - INPUT Initialize hardware">
-    <mxGraphModel dx="1002" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -716,7 +716,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KUhRRgNS_XwqonvVdT_Z" name="IO - INPUT Initialize global variable">
-    <mxGraphModel dx="1002" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -877,6 +877,29 @@
         </mxCell>
         <mxCell id="-MhTxWFSI1YInjeycnbb-36" value="Operation Routines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="200" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DcScuhuyf2IYYcllSdHS" name="IO - INPUT 인터럽트 루틴">
+    <mxGraphModel dx="1018" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pIRcg3W_7DR5rxtG2xX--1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="278" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pIRcg3W_7DR5rxtG2xX--2" value="Interrupt&amp;nbsp; Routines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="203" y="70" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pIRcg3W_7DR5rxtG2xX--3" value="USART2_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="138" width="177" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pIRcg3W_7DR5rxtG2xX--4" value="USART5_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="188" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pIRcg3W_7DR5rxtG2xX--5" value="CAN0_RX1_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="238" width="178" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
