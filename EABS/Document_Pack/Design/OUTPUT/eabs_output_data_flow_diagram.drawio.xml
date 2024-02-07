@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T03:06:37.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="QZ4_-ZEzJy7Ndy8ga5nk" version="23.1.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2024-02-07T05:20:57.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="cUC4M9I-iaxb1woUod_i" version="23.1.1" type="github" pages="16">
   <diagram id="D0PGXv35O40CLdUZsH8Q" name="EABS-OUT-SWF01">
     <mxGraphModel dx="1018" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -744,8 +744,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1oXeXP1ATg_Rnzb_dz9J-13" value="aucU0RxDLE_PBuff&lt;br&gt;ucStart&lt;br&gt;ucEnd" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-241" y="770" width="173" height="60" as="geometry" />
+        <mxCell id="1oXeXP1ATg_Rnzb_dz9J-13" value="aucU0RxDLE_PBuff&lt;br&gt;ucStart&lt;br&gt;ucEnd&lt;br&gt;CRC16a&lt;br&gt;CRC16b" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-241" y="770" width="173" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1oXeXP1ATg_Rnzb_dz9J-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.9;entryY=0.815;entryDx=0;entryDy=0;startArrow=classic;startFill=1;entryPerimeter=0;" edge="1" parent="1" source="1oXeXP1ATg_Rnzb_dz9J-13" target="1oXeXP1ATg_Rnzb_dz9J-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
