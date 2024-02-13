@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T06:11:03.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="uPSHh4_ZxCoQMRcm_EkX" version="23.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-13T06:12:55.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="rHiPDJ9QrL3nPsdHdplc" version="23.1.1" type="github" pages="5">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1259" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
       <root>
         <mxCell id="A97JiWpyKEoLxjdrsK4T-0" />
         <mxCell id="A97JiWpyKEoLxjdrsK4T-1" parent="A97JiWpyKEoLxjdrsK4T-0" />
-        <mxCell id="A97JiWpyKEoLxjdrsK4T-2" value="EABS I/O Module Input Board Software" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="A97JiWpyKEoLxjdrsK4T-1">
+        <mxCell id="A97JiWpyKEoLxjdrsK4T-2" value="EABS I/O Module Output Board Software" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="A97JiWpyKEoLxjdrsK4T-1">
           <mxGeometry x="1070" y="350" width="460" height="320" as="geometry" />
         </mxCell>
         <mxCell id="A97JiWpyKEoLxjdrsK4T-3" value="H/W" style="rounded=0;shadow=1;fontStyle=1;fontSize=28;align=center;verticalAlign=middle;spacing=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="A97JiWpyKEoLxjdrsK4T-1">
@@ -98,7 +98,7 @@
         <mxCell id="A97JiWpyKEoLxjdrsK4T-4" value="Device Driver" style="rounded=0;shadow=1;fontStyle=1;fontSize=24;align=center;verticalAlign=middle;" vertex="1" parent="A97JiWpyKEoLxjdrsK4T-1">
           <mxGeometry x="1078" y="590" width="442" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="A97JiWpyKEoLxjdrsK4T-5" value="EABS I/O Module Input Board Application" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="A97JiWpyKEoLxjdrsK4T-1">
+        <mxCell id="A97JiWpyKEoLxjdrsK4T-5" value="EABS I/O Module Output Board Application" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="A97JiWpyKEoLxjdrsK4T-1">
           <mxGeometry x="1080" y="380" width="440" height="200" as="geometry" />
         </mxCell>
       </root>
