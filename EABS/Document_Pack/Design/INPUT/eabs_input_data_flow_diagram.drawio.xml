@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T06:04:13.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="_wLc2feqB0yVjVym38dG" version="23.1.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-02-14T06:06:35.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="7eStfJQ3Sz-LXP67-zih" version="23.1.3" type="github" pages="13">
   <diagram id="D0PGXv35O40CLdUZsH8Q" name="EABS-IN-SWF01">
     <mxGraphModel dx="1070" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -611,6 +611,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AwYIMg0DpCOhkBSK-wu--8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="AwYIMg0DpCOhkBSK-wu--3" target="AwYIMg0DpCOhkBSK-wu--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-617" y="260" as="sourcePoint" />
+            <mxPoint x="-567" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-567" y="260" />
+              <mxPoint x="-617" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K4QIFNqxy1S5i4snlTZb" name="EABS-IN-SWADS-INT3">
+    <mxGraphModel dx="1897" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-1" value="&lt;p style=&quot;line-height: 120%; word-break: keep-all; font-size: 16px;&quot; class=&quot;0&quot;&gt;CAN0_RX1_IRQHandler&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;5749&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;5756&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;5754&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;5745&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;5749&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;5751&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6191&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6181&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div data-jsonlen=&quot;6179&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-497" y="100" width="357" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-2" value="" style="shape=ellipse;html=1;dashed=1;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;dashPattern=1 2;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-578.5" y="150" width="520" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-3" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-IN-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: transparent;&quot;&gt;SWADS-INT3-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;vCAN0_RX_Callback&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-548" y="250" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-4" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-IN-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: transparent;&quot;&gt;SWADS-INT3-C2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vSetNotiCAN0&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-301" y="240" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-5" value="stCAN0RxMsg" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="170" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-6" value="ringBuffer&lt;br&gt;bufferWriteIndex&lt;br&gt;bufferReadIndex" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="430" width="173" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.99;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="EDZ6cXWqJ7Gi6Quh1rh8-4" target="EDZ6cXWqJ7Gi6Quh1rh8-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-64" y="272" as="sourcePoint" />
+            <mxPoint x="-14" y="222" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="340" />
+              <mxPoint x="-20" y="380" />
+              <mxPoint x="20" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDZ6cXWqJ7Gi6Quh1rh8-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="EDZ6cXWqJ7Gi6Quh1rh8-3" target="EDZ6cXWqJ7Gi6Quh1rh8-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-617" y="260" as="sourcePoint" />
             <mxPoint x="-567" y="210" as="targetPoint" />
