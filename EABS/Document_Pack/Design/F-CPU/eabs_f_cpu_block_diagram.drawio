@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T00:52:06.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JmST1_oEOZ7sk8wiReXy" version="23.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-04T00:56:54.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="BehrMXkgNCRe_FddN_FR" version="23.1.6" type="github" pages="3">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1074" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -85,15 +85,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nEc9BL4JhQjx3Stnoz7K" name="F-CPU - 소프트웨어 계층">
-    <mxGraphModel dx="1074" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="800" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="45" width="290" height="805" as="geometry" />
+          <mxGeometry x="70" y="45" width="290" height="855" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="250" height="632" as="geometry" />
+          <mxGeometry x="90" y="200" width="250" height="680" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="70" width="250" height="120" as="geometry" />
@@ -113,8 +113,8 @@
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-8" value="Initialize global variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="152" y="140" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-9" value="vCLI_Command" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="151" y="225" width="170" height="35" as="geometry" />
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-9" value="Scheduler Init &amp;amp; Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="225" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-10" value="vRS485_Recv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="267" width="170" height="35" as="geometry" />
@@ -164,7 +164,7 @@
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-25" value="CPU&amp;nbsp; Board Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="30" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.12;exitY=0.956;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LnzQzS3sqIs0aEbLHnlk-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="800" as="sourcePoint" />
             <mxPoint x="120" y="60" as="targetPoint" />
@@ -251,7 +251,7 @@
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-40" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="121" y="243" as="sourcePoint" />
-            <mxPoint x="151" y="243" as="targetPoint" />
+            <mxPoint x="130" y="243" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -271,6 +271,15 @@
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-44" value="Operation Routines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="200" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-45" value="Scheduler Deinit &amp;amp; End" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="831" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121" y="849" as="sourcePoint" />
+            <mxPoint x="130" y="849" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
