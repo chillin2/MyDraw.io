@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T02:10:24.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ZyH5vzkWsHl6T0oPtPlR" version="23.1.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-04T02:11:11.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="8Ae8HFU-WMSZgE-FOCdr" version="23.1.6" type="github" pages="6">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1074" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -548,7 +548,7 @@
         <mxCell id="gM89Yvx6hwCjSX55fiBH-22" value="tepsFieldUdp&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="676" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="gM89Yvx6hwCjSX55fiBH-25" value="CPU&amp;nbsp; Board Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gM89Yvx6hwCjSX55fiBH-25" value="CPU&amp;nbsp; Board&amp;nbsp; Operation Routines" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="61" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gM89Yvx6hwCjSX55fiBH-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
