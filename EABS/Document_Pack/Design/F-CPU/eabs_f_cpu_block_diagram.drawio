@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T00:56:54.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="BehrMXkgNCRe_FddN_FR" version="23.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-04T01:01:02.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Liq-f_krobFC9QI4-5vK" version="23.1.6" type="github" pages="3">
   <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1074" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -85,15 +85,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nEc9BL4JhQjx3Stnoz7K" name="F-CPU - 소프트웨어 계층">
-    <mxGraphModel dx="800" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="941" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="45" width="290" height="855" as="geometry" />
+          <mxGeometry x="70" y="45" width="290" height="985" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="250" height="680" as="geometry" />
+          <mxGeometry x="90" y="200" width="250" height="810" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="70" width="250" height="120" as="geometry" />
@@ -116,43 +116,43 @@
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-9" value="Scheduler Init &amp;amp; Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="131" y="225" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-10" value="vRS485_Recv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-10" value="CHECKTASK&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="267" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-11" value="vChannel_Master_Recv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-11" value="Self diagnosis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="309" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-12" value="vChannel_Slave_Recv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-12" value="SysMonitor&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="352" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-13" value="vCAN0InOutProcess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-13" value="ChCompare&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="395" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-14" value="vDisplayFndPoll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-14" value="StageCompare&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="438" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-15" value="vChOut2Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-15" value="QueueBuzzer&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="481" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-16" value="vChannel_Send01_Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-16" value="FieldMultiLineSignalTask&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="524" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-17" value="vChannel_Common01_Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-17" value="GpioPollTask&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="567" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-18" value="vPort_IN1_8Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-18" value="vOutRComp02Task&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="610" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-19" value="vCpuIn05Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-19" value="COMRx&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="653" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-20" value="vInCpuRS485_Poll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-20" value="udp1123&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="696" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-21" value="vLEDRunFailPoll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-21" value="udpSetconfig&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="739" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LnzQzS3sqIs0aEbLHnlk-22" value="vPSU_ErrorCheck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-22" value="tepsFieldUdp&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="151" y="782" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-23" value="USART5_IRQHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
@@ -273,12 +273,39 @@
           <mxGeometry x="230" y="200" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-45" value="Scheduler Deinit &amp;amp; End" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="831" width="170" height="35" as="geometry" />
+          <mxGeometry x="131" y="956" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LnzQzS3sqIs0aEbLHnlk-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="121" y="849" as="sourcePoint" />
-            <mxPoint x="130" y="849" as="targetPoint" />
+            <mxPoint x="121" y="974" as="sourcePoint" />
+            <mxPoint x="130" y="974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-47" value="MonitorUDP&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="825" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-48" value="IOComm02Task&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="868" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-49" value="Tmr10ms&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="911" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-50" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="887" as="sourcePoint" />
+            <mxPoint x="150" y="887" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="928" as="sourcePoint" />
+            <mxPoint x="150" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnzQzS3sqIs0aEbLHnlk-52" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121" y="844" as="sourcePoint" />
+            <mxPoint x="151" y="844" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
