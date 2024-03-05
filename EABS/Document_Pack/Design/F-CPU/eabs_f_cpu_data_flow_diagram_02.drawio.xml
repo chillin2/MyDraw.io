@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T07:15:36.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Fc55b2KRrb401IkIJ3s8" version="24.0.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-03-05T07:41:17.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="mG3Xg0-lzzVZwMEpibqX" version="24.0.1" type="github" pages="9">
   <diagram id="B1S2TXJzYmG2En4OQOOi" name="EABS-FCPU-SWF10">
     <mxGraphModel dx="1627" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -531,8 +531,8 @@
         <mxCell id="YNK4It1F5obs48kvZ6n6-4" value="&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;mso-fareast-font-family:맑은 고딕;mso-font-width:100%;letter-spacing:0pt;mso-text-raise:0pt;&quot; lang=&quot;EN-US&quot;&gt;[EABS-FCPU-&lt;/span&gt;&lt;span style=&quot;letter-spacing: 0pt; background-color: initial;&quot;&gt;SWADS-INT2-C1]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:120%;mso-pagination:none;text-autospace:none;mso-padding-alt:0pt 0pt 0pt 0pt;&quot; class=&quot;0&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;vSerialCom_Transmit_DMA&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;div data-jsonlen=&quot;6423&quot; data-hjsonver=&quot;1.0&quot; class=&quot;hwp_editor_board_content&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="YNK4It1F5obs48kvZ6n6-1">
           <mxGeometry x="-1360" y="-860" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="YNK4It1F5obs48kvZ6n6-5" value="dma_rx_buf&lt;div&gt;cChar&lt;/div&gt;" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="YNK4It1F5obs48kvZ6n6-1">
-          <mxGeometry x="-1590" y="-900" width="130" height="50" as="geometry" />
+        <mxCell id="YNK4It1F5obs48kvZ6n6-5" value="dma_rx_buf&lt;div&gt;dma_tx_buf&lt;br&gt;&lt;div&gt;cChar&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="YNK4It1F5obs48kvZ6n6-1">
+          <mxGeometry x="-1590" y="-910" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YNK4It1F5obs48kvZ6n6-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YNK4It1F5obs48kvZ6n6-1" source="YNK4It1F5obs48kvZ6n6-5" target="YNK4It1F5obs48kvZ6n6-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
