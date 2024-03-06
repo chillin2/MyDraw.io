@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T02:13:09.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JldIBF0ck4V6sjSNJ81s" version="24.0.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-03-06T02:25:22.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="xcCCGaWFnbaOJ23Ewq_8" version="24.0.2" type="github" pages="10">
   <diagram id="neqAgu-r7gskRCsn4rFM" name="EABS-FCPU-SWF01">
     <mxGraphModel dx="1834" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -738,7 +738,7 @@
           <mxGeometry x="-260" y="695" width="270" height="270" as="geometry" />
         </mxCell>
         <mxCell id="l3zcOoDlSkZ79vKB7MLp-14" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Ethernet UDP Port : 14152&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="l3zcOoDlSkZ79vKB7MLp-1">
-          <mxGeometry x="-640" y="140" width="160" height="50" as="geometry" />
+          <mxGeometry x="-590" y="165" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l3zcOoDlSkZ79vKB7MLp-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="l3zcOoDlSkZ79vKB7MLp-1" source="l3zcOoDlSkZ79vKB7MLp-4" target="l3zcOoDlSkZ79vKB7MLp-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -746,8 +746,8 @@
             <mxPoint x="-13" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l3zcOoDlSkZ79vKB7MLp-16" value="xV_Relay (구조체)&lt;br&gt;xR_Relay (구조체)&lt;br&gt;xSignal_Disp&amp;nbsp;(구조체)" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;" vertex="1" parent="l3zcOoDlSkZ79vKB7MLp-1">
-          <mxGeometry x="-670" y="375" width="173" height="60" as="geometry" />
+        <mxCell id="l3zcOoDlSkZ79vKB7MLp-16" value="&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;xR_Relay(struct)&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;TPR&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;YLMR_M&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;YLMR_A&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;GLMR_M&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;GLMR_A&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;Y1LMR_M&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;Y1LMR_A&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;RLMR_M&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;RLMR_A&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oSDN&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oRCON&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oYCON&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oGCON&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oY1CON&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oATS_YY&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oATS_Y&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oATS_YG&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oATS_G&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;oEMS&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;CPT&lt;/div&gt;&lt;div style=&quot;background-color: transparent; font-size: 13px;&quot;&gt;ECPT&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=1;whitespace=wrap;shape=partialRectangle;right=0;left=0;strokeColor=#001933;strokeWidth=2;align=left;fontSize=13;" vertex="1" parent="l3zcOoDlSkZ79vKB7MLp-1">
+          <mxGeometry x="-650" y="310" width="173" height="380" as="geometry" />
         </mxCell>
         <mxCell id="l3zcOoDlSkZ79vKB7MLp-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="l3zcOoDlSkZ79vKB7MLp-1" source="l3zcOoDlSkZ79vKB7MLp-16" target="l3zcOoDlSkZ79vKB7MLp-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -796,7 +796,7 @@
           <mxGeometry x="250" y="580" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="-QUUFvfdw-95ZZGMti9m-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Ethernet UDP Port : 14152&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="l3zcOoDlSkZ79vKB7MLp-1">
-          <mxGeometry x="630" y="740" width="160" height="50" as="geometry" />
+          <mxGeometry x="570" y="750" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-QUUFvfdw-95ZZGMti9m-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="l3zcOoDlSkZ79vKB7MLp-1" source="-QUUFvfdw-95ZZGMti9m-5" target="-QUUFvfdw-95ZZGMti9m-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
