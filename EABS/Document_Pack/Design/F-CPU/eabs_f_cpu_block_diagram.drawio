@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T00:57:33.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="n1enZ_oLBEhvBqOMj8Qe" version="24.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-06T00:59:09.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="tqUbriknJ13Q23663RKj" version="24.0.1" type="github" pages="9">
   <diagram name="BlockDiagram-Borad" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1439" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -67,6 +67,32 @@
           <mxGeometry x="672" y="150" width="440" height="200" as="geometry" />
         </mxCell>
         <mxCell id="L-FeJ6XMAPMWZlbZIFeV-20" value="Self-Test Library" style="rounded=0;shadow=1;fontStyle=1;fontSize=24;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="L-FeJ6XMAPMWZlbZIFeV-1">
+          <mxGeometry x="379" y="320" width="110" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="BlockDiagram-Board-STL Only" id="nFTA9pRjFgX0Fp2np6tb">
+    <mxGraphModel dx="1678" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-0" />
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-1" parent="Uc3oioPi5cgXxpBvwLdO-0" />
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-2" value="EABS CPU Board Software" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="Uc3oioPi5cgXxpBvwLdO-1">
+          <mxGeometry x="190" y="120" width="460" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-3" value="H/W" style="rounded=0;shadow=1;fontStyle=1;fontSize=28;align=center;verticalAlign=middle;spacing=2;" vertex="1" parent="Uc3oioPi5cgXxpBvwLdO-1">
+          <mxGeometry x="190" y="440" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-4" value="SafeRTOS" style="rounded=0;shadow=1;fontStyle=1;fontSize=24;align=center;verticalAlign=middle;" vertex="1" parent="Uc3oioPi5cgXxpBvwLdO-1">
+          <mxGeometry x="200" y="320" width="169" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-5" value="Device Driver" style="rounded=0;shadow=1;fontStyle=1;fontSize=24;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="Uc3oioPi5cgXxpBvwLdO-1">
+          <mxGeometry x="499" y="320" width="141" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-6" value="EABS CPU Board Application" style="rounded=0;shadow=1;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="Uc3oioPi5cgXxpBvwLdO-1">
+          <mxGeometry x="200" y="150" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Uc3oioPi5cgXxpBvwLdO-11" value="Self-Test Library" style="rounded=0;shadow=1;fontStyle=1;fontSize=24;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="Uc3oioPi5cgXxpBvwLdO-1">
           <mxGeometry x="379" y="320" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
