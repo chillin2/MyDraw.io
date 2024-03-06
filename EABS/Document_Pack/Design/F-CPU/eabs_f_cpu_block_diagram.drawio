@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T00:26:40.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="AV5H3IyD-DVN0AyRnFSj" version="24.0.1" type="github" pages="8">
-  <diagram name="BlockDiagram-all" id="97916047-d0de-89f5-080d-49f4d83e522f">
+<mxfile host="app.diagrams.net" modified="2024-03-06T00:28:05.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="pyJkx8xXAxAKQVmU5pVM" version="24.0.1" type="github" pages="8">
+  <diagram name="BlockDiagram-Borad" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1439" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -34,8 +34,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="BlockDiagram-stl" id="QmPkx31i5sQ1Wvb44wu9">
-    <mxGraphModel dx="1831" dy="1313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+  <diagram name="BlockDiagram-Board-STL" id="QmPkx31i5sQ1Wvb44wu9">
+    <mxGraphModel dx="1549" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="L-FeJ6XMAPMWZlbZIFeV-0" />
         <mxCell id="L-FeJ6XMAPMWZlbZIFeV-1" parent="L-FeJ6XMAPMWZlbZIFeV-0" />
