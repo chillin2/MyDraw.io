@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T03:12:27.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.4" etag="pnEmmwTUgG3AIvk0TpG-" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T03:12:59.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="CSWhvKPvnN_FxItzCQoi" version="24.6.4" type="github">
   <diagram name="페이지-1" id="SrX67_YOaapjG4t2wndC">
-    <mxGraphModel>
+    <mxGraphModel dx="1148" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iIB5_-QCqgo_1osaThlE-1" value="aSystem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-2" value="bSystem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-3" value="Active" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-4" value="Standby" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-5" value="SAFE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-6" value="Hardware Pin Determines Initial State" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-7" value="Signal Output" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-8" value="Machine State" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-6" target="iIB5_-QCqgo_1osaThlE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-6" target="iIB5_-QCqgo_1osaThlE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-1" target="iIB5_-QCqgo_1osaThlE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-2" target="iIB5_-QCqgo_1osaThlE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-3" target="iIB5_-QCqgo_1osaThlE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-4" target="iIB5_-QCqgo_1osaThlE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-3" target="iIB5_-QCqgo_1osaThlE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-4" target="iIB5_-QCqgo_1osaThlE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIB5_-QCqgo_1osaThlE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIB5_-QCqgo_1osaThlE-4" target="iIB5_-QCqgo_1osaThlE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
