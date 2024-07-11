@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T07:33:19.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="vp3NiZOK8KJE2XUTjtuW" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-11T07:34:07.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="vNIMAMVsnZqmVylfJpeD" version="24.6.4" type="github" pages="2">
   <diagram id="duEuhVmTifR8uVSq0GCO" name="FCPU_Init_Flowchart00">
     <mxGraphModel dx="895" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,10 +40,10 @@
         <mxCell id="AGXvdr6b80jKfFNYbc4D-15" value="Check Active Signal" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="112.5" y="687" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AGXvdr6b80jKfFNYbc4D-16" value="Enter Active State" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ccffcc;" vertex="1" parent="1">
+        <mxCell id="AGXvdr6b80jKfFNYbc4D-16" value="Enter Active state" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ccffcc;" vertex="1" parent="1">
           <mxGeometry x="304" y="707" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AGXvdr6b80jKfFNYbc4D-17" value="Enter Standby State" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ccccff;" vertex="1" parent="1">
+        <mxCell id="AGXvdr6b80jKfFNYbc4D-17" value="Enter Standby state" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ccccff;" vertex="1" parent="1">
           <mxGeometry x="180" y="845" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AGXvdr6b80jKfFNYbc4D-19" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AGXvdr6b80jKfFNYbc4D-1" target="AGXvdr6b80jKfFNYbc4D-3">
