@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T05:00:29.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="PCdut6UsmUVNpZ51oBBI" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-15T05:02:01.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="nHccRCYmSRAnuItHwVIy" version="24.6.4" type="github" pages="2">
   <diagram id="duEuhVmTifR8uVSq0GCO" name="FCPU_Initialization_Flowchart00">
     <mxGraphModel dx="904" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,6 +71,11 @@
             <mxPoint x="175" y="614" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_83IW62CXTp7iJBFH6CD-1" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGXvdr6b80jKfFNYbc4D-28">
+          <mxGeometry x="-0.125" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AGXvdr6b80jKfFNYbc4D-29" parent="1" source="AGXvdr6b80jKfFNYbc4D-14" target="AGXvdr6b80jKfFNYbc4D-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -107,6 +112,11 @@
         <mxCell id="4KVKQg5MsNUxnPHz3nY--6" value="wait for health signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AGXvdr6b80jKfFNYbc4D-37" vertex="1" connectable="0">
           <mxGeometry x="-0.0069" y="1" relative="1" as="geometry">
             <mxPoint x="41" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_83IW62CXTp7iJBFH6CD-2" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AGXvdr6b80jKfFNYbc4D-37">
+          <mxGeometry x="-0.5744" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
