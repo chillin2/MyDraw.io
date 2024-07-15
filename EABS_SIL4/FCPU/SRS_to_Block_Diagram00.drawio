@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T10:42:17.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="SADXkMDXxy3HJbalgCTX" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-15T10:43:18.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="uAgSC37OULMHHUST3a4X" version="24.6.5" type="github" pages="6">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -255,7 +255,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="SCJ1vUykf8BJEr79rryc" name="페이지-6">
+  <diagram id="SCJ1vUykf8BJEr79rryc" name="4.1.1. Automated blocking signal control">
     <mxGraphModel dx="2213" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
