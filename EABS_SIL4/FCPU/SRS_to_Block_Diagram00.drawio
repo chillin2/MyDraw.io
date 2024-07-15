@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T10:06:13.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="HCq1H8nVN249AnYPKqj6" version="24.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-15T10:11:06.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="0hx309w_5zlUUsuIEsuz" version="24.6.5" type="github" pages="5">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,6 +231,26 @@
         </mxCell>
         <mxCell id="1eGZDkUts5aLkL0POM6L-11" value="SSR_SD_TEC10&#xa;EABS-FD - EABS-SD 간 통신에 IEC 62280 안전 관련 통신의 요구사항을 고려하여 설계해야 한다.&#xa;PHA-MIT-10" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="1eGZDkUts5aLkL0POM6L-1">
           <mxGeometry y="920" width="300" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3_jNM-u9_ruvXktQu3Bo" name="페이지-5">
+    <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yFbRv3er3d5ktf214HD2-1" value="Functional Requirements" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-750" y="-1100" width="300" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yFbRv3er3d5ktf214HD2-2" value="EABS-TFCN-01&#xa;자동폐색신호 제어 기능(Automated blocking signal control):&#xa;폐색신호 출력 제어, 선로변 제어장치 출력 제어, 자동열차정지장치 출력 제어, 현장 정보 송신, 폐색신호기 고장 검지" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="yFbRv3er3d5ktf214HD2-1">
+          <mxGeometry y="20" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yFbRv3er3d5ktf214HD2-3" value="EABS-TFCN-02&#xa;연동 정보 및 폐색 정보 연계 기능(Interlocking and blocking data management):&#xa;전자연동장치 입출력 제어, 역내 정보 송신" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="yFbRv3er3d5ktf214HD2-1">
+          <mxGeometry y="120" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yFbRv3er3d5ktf214HD2-4" value="EABS-TFCN-03&#xa;시스템 관리 기능(System Management):&#xa;주기적 자가 진단 수행, 데이터베이스 모드 설정 구성 및 진단, 실시간 모니터링 및 진단 수행" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="yFbRv3er3d5ktf214HD2-1">
+          <mxGeometry y="220" width="300" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
