@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T09:22:55.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="gE-9cdAIEM2ZFwXWBa10" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T09:32:28.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="A-iKk2M-bhUIwOsxD9cf" version="24.6.5" type="github" pages="4">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,6 +126,123 @@
         </mxCell>
         <mxCell id="PP6zNRmjhZfel7Y424V4-41" value="GSR_SD_RAM02&#xa;Description: EABS-SD의 MTBF는 15000 시간 이상이어야 한다." style="text;strokeColor=none;fillColor=none;" vertex="1" parent="PP6zNRmjhZfel7Y424V4-37">
           <mxGeometry y="260" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SUvC_oYcjn50ilki9p5t" name="Functional Requirements">
+    <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kfJgbHwtJd8BwgpisCSh-1" value="Functional Requirements" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-670" y="-1070" width="300" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="kfJgbHwtJd8BwgpisCSh-2" value="SSR_FD_FUN01&#xa;자동폐색신호 제어 기능은 THR 값 1.00-E10를 할당 이에 적합하도록 시스템을 설계해야한다.&#xa;Tolerable Hazard Rate: 1.00-E10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="kfJgbHwtJd8BwgpisCSh-1">
+          <mxGeometry y="20" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kfJgbHwtJd8BwgpisCSh-3" value="SSR_FD_FUN02&#xa;시스템 관리 기능은 THR 값 1.00-E10를 할당 이에 적합하도록 시스템을 설계해야한다.&#xa;Tolerable Hazard Rate: 1.00-E10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="kfJgbHwtJd8BwgpisCSh-1">
+          <mxGeometry y="120" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kfJgbHwtJd8BwgpisCSh-4" value="SSR_SD_FUN01&#xa;연동 정보 및 폐색 정보 연계 기능은 THR 값 1.00-E10를 할당 이에 적합하도록 시스템을 설계해야한다.&#xa;Tolerable Hazard Rate: 1.00-E10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="kfJgbHwtJd8BwgpisCSh-1">
+          <mxGeometry y="220" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kfJgbHwtJd8BwgpisCSh-5" value="SSR_SD_FUN02&#xa;시스템 관리 기능은 THR 값 1.00-E10를 할당 이에 적합하도록 시스템을 설계해야한다.&#xa;Tolerable Hazard Rate: 1.00-E10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="kfJgbHwtJd8BwgpisCSh-1">
+          <mxGeometry y="320" width="300" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QPWW3UkDxiG8FrXXhpae" name="Technical Requirements">
+    <mxGraphModel dx="2213" dy="3123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4J409cvU_Fzqop5W7oWE-1" value="Technical Requirements" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-720" y="-2280" width="300" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-2" value="SSR_FD_TEC01&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 온도성능 규정 준수&#xa;PHA-MIT-01" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="20" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-3" value="SSR_FD_TEC02&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 고습 규정 준수&#xa;PHA-MIT-02" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="120" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-4" value="SSR_FD_TEC03&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 방수/방진 규정 준수&#xa;PHA-MIT-03" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="220" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-5" value="SSR_FD_TEC04&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 전원변동 규정 준수&#xa;PHA-MIT-04" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="320" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-6" value="SSR_FD_TEC05&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 내전압 시험 규정 준수&#xa;PHA-MIT-05" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="420" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-7" value="SSR_FD_TEC06&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 EMC 규정 준수&#xa;PHA-MIT-06" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="520" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-8" value="SSR_FD_TEC07&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 절연성능 규정 준수&#xa;PHA-MIT-07" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="620" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-9" value="SSR_FD_TEC08&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 진동시험 규정 준수&#xa;PHA-MIT-08" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="720" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-10" value="SSR_FD_TEC09&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 충격시험 규정 준수&#xa;PHA-MIT-09" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="820" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4J409cvU_Fzqop5W7oWE-11" value="SSR_FD_TEC10&#xa;EABS-FD - EABS-SD 간 통신에 IEC 62280 안전 관련 통신의 요구사항을 고려하여 설계해야 한다.&#xa;PHA-MIT-10" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4J409cvU_Fzqop5W7oWE-1">
+          <mxGeometry y="920" width="300" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SIwHKuWkWpIvVJgxvErO" name="Interface Requirements">
+    <mxGraphModel dx="1386" dy="3123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-1" value="Interface Requirements" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;strokeWidth=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="-2280" width="300" height="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-2" value="GSR_FD_INF01&#xa;N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="20" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-3" value="GSR_SD_INF01&#xa;EABS-SD는 전자연동장치와의 인터페이스를 Table 10와 같이 구성해야 한다. 전자연동장치에는 SE1 SE2 SE3 실선 출력을 조합하여 3현시에서 5현시 폐색 신호를 전달할 수 있도록 구성해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="120" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-4" value="GSR_FD_INF02&#xa;EABS-FD는 감시 PC와의 인터페이스를 Table 11와 같이 구성해야 한다. 감시 PC와의 통신은 유지 보수 목적과 부가 정보 전송 수단으로서 구성되어야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="220" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-5" value="GSR_SD_INF02&#xa;EABS-SD는 감시 PC와의 인터페이스를 Table 11와 같이 구성해야 한다. 감시 PC와의 통신은 유지 보수 목적과 부가 정보 전송 수단으로서 구성되어야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="320" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-6" value="GSR_FD_INF03&#xa;EABS-FD는 열차자동정지장치와의 인터페이스를 Table 12와 같이 구성해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="420" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-7" value="GSR_SD_INF03&#xa;N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="520" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-8" value="GSR_FD_INF04&#xa;EABS-FD는 선로변 제어장치의 인터페이스를 Table 13와 같이 구성해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="620" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-9" value="GSR_SD_INF04&#xa;N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="720" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-10" value="GSR_FD_INF05&#xa;EABS-FD는 선로변 제어장치의 인터페이스를 Table 14와 같이 구성해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="820" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-11" value="GSR_SD_INF05&#xa;N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="920" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-12" value="GSR_FD_INF06&#xa;EABS-FD는 CPT/eCPT와의 인터페이스를 Table 15와 같이 구성해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="1020" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-13" value="GSR_SD_INF06&#xa;N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="1120" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-14" value="GSR_FD_INF07&#xa;EABS-FD는 궤도 회로와의 인터페이스를 Table 16와 같이 구성해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="1220" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU_g3Y1K4toeyV5tF2bN-15" value="GSR_SD_INF07&#xa;N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="GU_g3Y1K4toeyV5tF2bN-1">
+          <mxGeometry y="1320" width="300" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
