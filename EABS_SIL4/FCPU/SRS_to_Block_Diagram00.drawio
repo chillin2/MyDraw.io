@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:18:49.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="84I4RJHYRrTpE5YVgknQ" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:19:25.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="s9hM1HsIrmbfOhA32Uop" version="24.6.5" type="github" pages="7">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -804,6 +804,15 @@
         </mxCell>
         <mxCell id="4WbTbXBq-6r8wDZEa4mu-9" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-7">
           <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="37U5DA2eRq2gN2ATvAZ6-1" value="GSR_SD_FUN12" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="660" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="37U5DA2eRq2gN2ATvAZ6-2" value="EABS-SD는 매 기동 시 데이터베이스 설정과 운용 모드 설정 값을 읽고 채널 간 비교를 통해 설정 값의 무결성을 검증해야 한다.&#xa;- 시스템 구분: 단선용/복선용&#xa;- 현시 체계: 3현시/4현시/5현시&#xa;- EABS-SD 설치 수량: 단일 폐색구간 내 최대 2개 구성&#xa;검증 결과 채널 간 설정 값이 상이할 경우, EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="37U5DA2eRq2gN2ATvAZ6-1">
+          <mxGeometry y="30" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="37U5DA2eRq2gN2ATvAZ6-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="37U5DA2eRq2gN2ATvAZ6-1">
+          <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
