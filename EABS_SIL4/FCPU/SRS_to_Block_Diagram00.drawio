@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T04:52:33.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="6pKNe-eFIUFkyvPzPpfK" version="24.6.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-07-16T05:40:56.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="pvVjbhOikxj6bq0dMkCQ" version="24.6.5" type="github" pages="10">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -982,6 +982,23 @@
         </mxCell>
         <mxCell id="o_oJ-vmcplQ2RO2Bs6S7-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="o_oJ-vmcplQ2RO2Bs6S7-1">
           <mxGeometry y="120" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="51gHhPs1bTDpNljxyQ5G" name="Availability Requirement">
+    <mxGraphModel dx="1569" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T1TfQZ811Pt_TY5NwUbE-1" value="GSR_FD_RAM01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T1TfQZ811Pt_TY5NwUbE-2" value="EABS-FD의 고유 가용도 Ai는 99.995[%] 이상이어야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="T1TfQZ811Pt_TY5NwUbE-1">
+          <mxGeometry y="30" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1TfQZ811Pt_TY5NwUbE-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="T1TfQZ811Pt_TY5NwUbE-1">
+          <mxGeometry y="90" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
