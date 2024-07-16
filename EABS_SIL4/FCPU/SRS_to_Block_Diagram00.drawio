@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:08:24.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="qNxFUSKv2gAIveNoc3Mr" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:10:34.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="QVsQt_-XLxeHwsquf2Zn" version="24.6.5" type="github" pages="7">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -768,6 +768,33 @@
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-24" value="Non-Safety" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-22">
           <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-1" value="GSR_SD_FUN09" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="620" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-2" value="EABS-SD는 매 기동 시 안전 관련 출력, 출력에 대한 피드백 신호를 시험하여 안전 관련 출력에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-1">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-1">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-4" value="GSR_SD_FUN10" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-5" value="EABS-SD는 인접 EABS-SD와 EABS-FD와의 통신에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-4">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-6" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-4">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-7" value="GSR_SD_FUN11" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-8" value="EABS-FD 내 구성 요소에 소프트웨어가 탑재될 경우, 주변 장치 및 MCU에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-FD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-7">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4WbTbXBq-6r8wDZEa4mu-9" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-7">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
