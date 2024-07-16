@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:28:18.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="LgErJDMaNuW9GvgeSQql" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:30:58.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="mgeNu7bZJCZdWlkr3D5v" version="24.6.5" type="github" pages="8">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -840,6 +840,23 @@
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-12" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-10">
           <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4pIZUI97aLURn6yJR2lW" name="Interface(FD)">
+    <mxGraphModel dx="1838" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jvficXdWPm7I-fK2wNrt-1" value="GSR_FD_INF01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jvficXdWPm7I-fK2wNrt-2" value="N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="jvficXdWPm7I-fK2wNrt-1">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jvficXdWPm7I-fK2wNrt-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="jvficXdWPm7I-fK2wNrt-1">
+          <mxGeometry y="120" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
