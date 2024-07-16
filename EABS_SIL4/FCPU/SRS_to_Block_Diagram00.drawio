@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:00:04.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="gAH_OctLor7OIpO2eBbQ" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:04:44.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="7BK9dlSmkKBrugRUIdZp" version="24.6.5" type="github" pages="7">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -714,6 +714,33 @@
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-15" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-13">
           <mxGeometry y="210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-16" value="GSR_SD_FUN06" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-17" value="EABS-SD는 아래와 같은 안전 관련 정보를 EABS-FD로 송신해야 한다.&#xa;- EMS 취급 정보&#xa;- 열차 진행 방향 (DIR)&#xa;- 역 장내 신호 현시상태" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-16">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-18" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-16">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-19" value="GSR_SD_FUN07" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-20" value="EABS-SD는 단선 운용 또는 복선 운용 중, 역방향 운행 시 인접 EABS-SD 또는 EABS-FD로 열차 진행 방향 취급 정보와 역내 역간 방향 정보를 송신해야 한다.&#xa;- 열차 진행 방향 취급 정보&#xa;- 역내 역간 방향 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-19">
+          <mxGeometry y="30" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-21" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-19">
+          <mxGeometry y="210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-22" value="GSR_SD_FUN08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="940" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-23" value="EABS-SD는 아래와 같은 현장의 상태 정보를 감시 PC로 송신해야 한다.&#xa;- EABS-FD 고장 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-22">
+          <mxGeometry y="30" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-24" value="Non-Safety" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-22">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
