@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:19:25.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="s9hM1HsIrmbfOhA32Uop" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:23:39.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="PHq_qtD9uCqjFHxVuOoP" version="24.6.5" type="github" pages="7">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,53 +491,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="E3N3q9u4lxATb-abvPDY-31" value="Functional Requirements" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;strokeWidth=2;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-780" y="30" width="400" height="1740" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-32" value="GSR_FD_FUN01&#xa;EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 폐색신호를 ATP 폐색신호기로 출력해야 한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="20" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-33" value="GSR_FD_FUN02&#xa;EABS-FD는 외부로부터 아래와 같은 실선 입력을 받아야 한다.&#xa;- 궤도 점유 상태&#xa;- CPT/eCPT 취급 상태" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="140" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-34" value="GSR_FD_FUN03&#xa;EABS-FD는 EABS-SD로부터 수신한 제어 정보에 따라 폐색신호 출력을 제어해야 한다.&#xa;- EMS 취급 정보&#xa;- 열차 진행방향 정보 (DIR)&#xa;- 역 장내 신호&#xa;- 역간 역 방향을 위한 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="260" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-35" value="GSR_FD_FUN04&#xa;EABS-FD는 EMS 취급 정보 수신 시 폐색 신호기의 모든 신호를 점등 상태로 유지해야 한다. EMS 취급 상태가 다시 미취급 상태로 변경된 경우 EABS-FD는 폐색신호현시 논리에 따라 폐색 신호 출력을 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="380" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-36" value="GSR_FD_FUN05&#xa;EABS-FD는 CPT/eCPT 취급 정보 수신 시 폐색신호를 ‘R’ 상태로 유지해야 한다. CPT/eCPT 취급 상태가 다시 미취급 상태로 변경된 경우 EABS-FD는 폐색신호현시 논리에 따라 폐색 신호 출력을 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="500" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-37" value="GSR_FD_FUN06&#xa;EABS-FD는 폐색궤도 점유 신호를 입력 받아 열차의 폐색구간 점유 여부를 판단해야 한다. EABS-FD는 담당하고 있는 궤도 회로에 점유 신호 검지 시 폐색신호를 ‘R’ 상태로 유지해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="620" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-38" value="GSR_FD_FUN07&#xa;EABS가 복선 모드로 운용 중에는 열차 방향 취급정보를 수신 시 열차 방향에 따라 역방향의 폐색 신호는 ‘R’ 상태로 유지해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="740" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-39" value="GSR_FD_FUN08&#xa;EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 폐색신호를 LEU로 출력해야 한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="860" width="400" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-40" value="GSR_FD_FUN09&#xa;EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 신호를 ATS 장치로 출력해야 한다. 현시 출력은 3현시/4현시/5현시 상태에 따라 출력한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="1000" width="400" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-41" value="GSR_FD_FUN10&#xa;EABS-FD는 운용 환경에 따라 다음 신호 중 하나를 ATS 장치로 출력할 수 있도록 배선을 구성해야 한다.&#xa;- EL (Electric locomotive)&#xa;- DL (Diesel locomotive)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="1140" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-42" value="GSR_FD_FUN11&#xa;EABS-FD는 아래와 같은 안전 관련 정보를 EABS-SD로 송신해야 한다.&#xa;- 폐색 신호기의 현시 신호 값&#xa;- 궤도 점유&#xa;- CPT/eCPT 취급 스위치 조작 상태" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="1260" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-43" value="GSR_FD_FUN12&#xa;EABS-FD는 아래와 같은 현장의 상태 정보를 감시 PC로 송신해야 한다.&#xa;- LEU 고장" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="1380" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-44" value="GSR_FD_FUN13&#xa;EABS-FD는 의도된 폐색신호 출력과 주심/부심 출력 및 검지 회로로부터 입력받은 신호를 비교하여 폐색신호기의 고장을 검지 해야한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="1500" width="400" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="E3N3q9u4lxATb-abvPDY-45" value="GSR_FD_FUN14&#xa;EABS-FD는 폐색신호기의 고장을 검지 시 폐색신호현시 논리에 따라 판단된 신호의 하위 신호를 출력해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="E3N3q9u4lxATb-abvPDY-31">
-          <mxGeometry y="1620" width="400" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-1" value="GSR_FD_FUN01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="30" width="300" height="180" as="geometry" />
+          <mxGeometry x="-820" y="30" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-2" value="EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 폐색신호를 ATP 폐색신호기로 출력해야 한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-1">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -546,7 +501,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-4" value="GSR_FD_FUN02" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="220" width="300" height="180" as="geometry" />
+          <mxGeometry x="-820" y="220" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-5" value="EABS-FD는 외부로부터 아래와 같은 실선 입력을 받아야 한다.&#xa;- 궤도 점유 상태&#xa;- CPT/GCPT 취급 상태" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-4">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -555,7 +510,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-7" value="GSR_FD_FUN03" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="410" width="300" height="180" as="geometry" />
+          <mxGeometry x="-820" y="410" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-8" value="EABS-FD는 EABS-SD로부터 수신한 제어 정보에 따라 폐색신호 출력을 제어해야 한다.&#xa;- EMS 취급 정보&#xa;- 열차 진행방향 정보 (DIR)&#xa;- 역 장내 신호&#xa;- 역간 역 방향을 위한 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-7">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -564,7 +519,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-12" value="GSR_FD_FUN04" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="600" width="300" height="210" as="geometry" />
+          <mxGeometry x="-820" y="600" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-13" value="EABS-FD는 EMS 취급 정보 수신 시 폐색신호기의 모든 신호를 점등 상태로 유지해야 한다.&#xa;EMS 취급 상태가 다시 미취급 상태로 변경 된 경우 EABS-FD는 폐색신호현시 논리에 따라 폐색신호를 출력할 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-12">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -573,7 +528,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-15" value="GSR_FD_FUN05" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="30" width="300" height="210" as="geometry" />
+          <mxGeometry x="-510" y="30" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-16" value="EABS-FD는 CPT/GCPT 취급 정보 수신 시 폐색신호를 ‘R’ 상태로 유지해야 한다.&#xa;CPT/GCPT 취급 상태가 다시 미취급 상태로 변경 된 경우 EABS-FD는 폐색신호현시 논리에 따라 폐색신호를 출력할 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-15">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -582,7 +537,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-18" value="GSR_FD_FUN06" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="250" width="300" height="240" as="geometry" />
+          <mxGeometry x="-510" y="250" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-19" value="EABS-FD는 폐색게도 점유 신호를 입력 받아야 열차의 폐색구간 점유 여부를 판단해야 한다.&#xa;EABS-FD는 담당하고 있는 궤도회로의 점유 신호 검지 시 폐색신호를 ‘R’ 상태로 유지해야 한다.&#xa;EABS-FD는 해당 폐색게도에 점유 신호 검지되지 않았을 경우 폐색신호현시 논리에 따라 폐색신호를 출력할 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-18">
           <mxGeometry y="30" width="300" height="180" as="geometry" />
@@ -591,7 +546,7 @@
           <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-21" value="GSR_FD_FUN07" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="500" width="300" height="180" as="geometry" />
+          <mxGeometry x="-510" y="500" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-22" value="EABS가 복선 모드로 운용 중에는 열차 방향 취급정보를 수신 시 열차 방향에 따라 역방향의 폐색신호는 ‘R’ 상태로 유지해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-21">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -600,7 +555,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-24" value="GSR_FD_FUN08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="690" width="300" height="210" as="geometry" />
+          <mxGeometry x="-510" y="690" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-25" value="EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 폐색신호를 LEU로 출력해야 한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-24">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -609,7 +564,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-27" value="GSR_FD_FUN09" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="30" width="300" height="210" as="geometry" />
+          <mxGeometry x="-200" y="30" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-28" value="EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 신호를 ATS 장치로 출력해야 한다.&#xa;현시 출력은 3현시/4현시/5현시 상태에 따라 출력한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-27">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -618,7 +573,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-30" value="GSR_FD_FUN10" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="250" width="300" height="180" as="geometry" />
+          <mxGeometry x="-200" y="250" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-31" value="EABS-FD는 운용 환경에 따라 다음 신호 중 하나를 ATS 장치로 출력할 수 있도록 배선을 구성해야 한다.&#xa;- EL (Electric locomotive)&#xa;- DL (Diesel locomotive)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-30">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -627,7 +582,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-33" value="GSR_FD_FUN11" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="440" width="300" height="180" as="geometry" />
+          <mxGeometry x="-200" y="440" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-34" value="EABS-FD는 아래와 같은 안전 관련 정보를 EABS-SD로 송신해야 한다.&#xa;- 폐색 신호기의 현시 신호 값&#xa;- 궤도 점유&#xa;- CPT/eCPT 취급 스위치 조작 상태" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-33">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -636,7 +591,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-36" value="GSR_FD_FUN12" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="630" width="300" height="150" as="geometry" />
+          <mxGeometry x="-200" y="630" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-37" value="EABS-FD는 아래와 같은 현장의 상태 정보를 감시 PC로 송신해야 한다.&#xa;- LEU 고장" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-36">
           <mxGeometry y="30" width="300" height="90" as="geometry" />
@@ -645,7 +600,7 @@
           <mxGeometry y="120" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-39" value="GSR_FD_FUN13" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="790" width="300" height="150" as="geometry" />
+          <mxGeometry x="-200" y="790" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-40" value="EABS-FD는 의도된 폐색신호 출력과 주심/부심 출력 및 검지 회로로 부터 입력받은 신호를 비교하여 폐색신호기의 고장을 검지해야한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-39">
           <mxGeometry y="30" width="300" height="90" as="geometry" />
@@ -654,7 +609,7 @@
           <mxGeometry y="120" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-42" value="GSR_FD_FUN14" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="950" width="300" height="150" as="geometry" />
+          <mxGeometry x="-200" y="950" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-43" value="EABS-FD는 폐색신호기의 고장을 검지 시 폐색신호현시 논리에 따라 판단된 신호의 하위 신호를 출력해야한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-42">
           <mxGeometry y="30" width="300" height="90" as="geometry" />
@@ -663,7 +618,7 @@
           <mxGeometry y="120" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EQuUw45B2LmspCnT81gh-1" value="GSR_FD_FUN15" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="910" width="300" height="210" as="geometry" />
+          <mxGeometry x="-510" y="910" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="EQuUw45B2LmspCnT81gh-2" value="EABS-FD는 매 기동 시 안전 관련 출력, 출력에 대한 피드백 신호를 시험하여 안전 관련 출력에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-FD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="EQuUw45B2LmspCnT81gh-1">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -672,7 +627,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EQuUw45B2LmspCnT81gh-4" value="GSR_FD_FUN16" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="1130" width="300" height="210" as="geometry" />
+          <mxGeometry x="-510" y="1130" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="EQuUw45B2LmspCnT81gh-5" value="EABS-FD는 EABS-SD와 EABS-FD와의 통신에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-FD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="EQuUw45B2LmspCnT81gh-4">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -681,7 +636,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EQuUw45B2LmspCnT81gh-7" value="GSR_FD_FUN17" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="820" width="300" height="210" as="geometry" />
+          <mxGeometry x="-820" y="820" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="EQuUw45B2LmspCnT81gh-8" value="EABS-FD 내 구성 요소에 소프트웨어가 탑재 될 경우, 주변 장치 및 MCU에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-FD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="EQuUw45B2LmspCnT81gh-7">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -690,7 +645,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OWUmMtpumGOyVwU5rhg6-1" value="GSR_FD_FUN18" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="1040" width="300" height="240" as="geometry" />
+          <mxGeometry x="-820" y="1040" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="OWUmMtpumGOyVwU5rhg6-2" value="EABS-FD는 매 기동 시 데이터베이스 설정과 운용 모드 설정 값을 읽고 채널 간 비교를 통해 설정 값의 무결성을 검증해야 한다.&#xa;- 시스템 구분: 단선용/복선용&#xa;- 현시 체계: 3현시/4현시/5현시&#xa;- EABS-FD 설치 수량: 단일 폐색구간 내 최대 48개 구성&#xa;검증 결과 채널 간 설정 값이 상이할 경우, EABS-FD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="OWUmMtpumGOyVwU5rhg6-1">
           <mxGeometry y="30" width="300" height="180" as="geometry" />
