@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T00:55:33.879Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="dPfJA9ybyVMt5xkQAKHi" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-16T02:10:58.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="4-VgPuxSoQ4sDLvYZGvW" version="24.6.5" type="github" pages="6">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -309,7 +309,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7_oKWNEi69iQ41l-H_JA" name="Technical Safety Requirements (SD)">
-    <mxGraphModel dx="3040" dy="3123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2530" dy="3147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -345,6 +345,15 @@
         </mxCell>
         <mxCell id="1eGZDkUts5aLkL0POM6L-11" value="SSR_SD_TEC10&#xa;EABS-FD - EABS-SD 간 통신에 IEC 62280 안전 관련 통신의 요구사항을 고려하여 설계해야 한다.&#xa;PHA-MIT-10" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="1eGZDkUts5aLkL0POM6L-1">
           <mxGeometry y="920" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-1" value="SSR_SD_TEC01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-2280" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-2" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 온도성능 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-1">
+          <mxGeometry y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-3" value="PHA-MIT-01" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-1">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
