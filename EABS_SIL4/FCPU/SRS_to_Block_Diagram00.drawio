@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T06:16:28.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="2f_Y8zjClBRPqRovY8Jg" version="24.6.5" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2024-07-16T06:26:48.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="pSADteh2XaSAbj1yBV7k" version="24.6.5" type="github" pages="15">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1211,6 +1211,96 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-1" value="GSR_SD_TEC01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-2" value="EABS는 KS C IEC 60068-2-1의 시험 A: 내한성 시험 기준을 충족해야 한다.&#xa;온도: -20[℃],&#xa;방치 시간: 16 시간&#xa;실내 환경으로, EABS-FD와 다른 기준 적용" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-1">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-1">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-4" value="GSR_SD_TEC02" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="190" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-5" value="EABS는 KS C IEC 60068-2-2의 시험 B: 내열성 시험 기준을 충족해야 한다.&#xa;온도: 60[℃],&#xa;방치 시간: 16 시간&#xa;실내 환경으로, EABS-FD와 다른 기준 적용" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-4">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-6" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-4">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-7" value="GSR_SD_TEC03" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="380" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-8" value="EABS는 IEC 60068-2-14의 환경시험 제2-14부 시험N 온도 변화 시험 기준을 충족해야 한다.&#xa;온도 범위: -20[℃] ~ 60[℃],&#xa;Cycle 횟수: 5주기&#xa;방치 시간: 0.5시간 이상" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-7">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-9" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-7">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-10" value="GSR_SD_TEC04" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="570" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-11" value="EABS는 IEC 60068-2-30의 환경시험 제2-30부 시험Db와 내습 사이클 (12+12h 사이클) 시험 기준을 충족해야 한다.&#xa;상한 온도: 55[℃],&#xa;Cycle 횟수: 2주기&#xa;방치 시간: 0.5시간 이상" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-10">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-12" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-10">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-13" value="GSR_SD_TEC05" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="760" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-14" value="EABS는 EMC 시험 규격인 IEC 61000-6-4 전도 내성 시험과 IEC 61000-6-4 방사 시험 기준을 충족해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-13">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-15" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-13">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-16" value="GSR_SD_TEC06" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-17" value="EABS는 EMC 시험 규격인 IEC 61000-4-2 정전기 방전 내성, IEC 61000-4-3 전기자기 방사 내성 시험, IEC 61000-4-4 전기적 빠른 과도현상 내성, IEC 61000-4-5 서지 내성, IEC 61000-4-6 전자기장 전도 내성 및 IEC 61000-4-8 전원 주파수 자기 내성 시험 기준을 충족해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-16">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-18" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-16">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-19" value="GSR_SD_TEC07" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-20" value="EABS는 IEC 62236-1 전자파 내성 성능평가의 시험 기준을 충족해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-19">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-21" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-19">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-22" value="GSR_SD_TEC08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-23" value="N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-22">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-24" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-22">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-25" value="GSR_SD_TEC09" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-26" value="N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-25">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-27" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-25">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-28" value="GSR_SD_TEC10" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="760" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-29" value="N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-28">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtVg-JGUW-Hcq69kOh4o-30" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="TtVg-JGUW-Hcq69kOh4o-28">
+          <mxGeometry y="120" width="300" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
