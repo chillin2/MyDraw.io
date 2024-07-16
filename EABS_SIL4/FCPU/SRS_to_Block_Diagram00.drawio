@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T02:43:45.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="4IXiTbuKI9OHpoFijss9" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-16T02:45:41.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="sbVN6SJASBZDU_TLF4Wn" version="24.6.5" type="github" pages="6">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -561,6 +561,42 @@
           <mxGeometry y="30" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-9" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-7">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-12" value="GSR_FD_FUN04" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="600" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-13" value="EABS-FD는 EMS 취급 정보 수신 시 폐색신호기의 모든 신호를 점등 상태로 유지해야 한다.&#xa;EMS 취급 상태가 다시 미취급 상태로 변경 된 경우 EABS-FD는 폐색신호현시 논리에 따라 폐색신호를 출력할 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-12">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-14" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-12">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-15" value="GSR_FD_FUN05" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="30" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-16" value="EABS-FD는 CPT/GCPT 취급 정보 수신 시 폐색신호를 ‘R’ 상태로 유지해야 한다.&#xa;CPT/GCPT 취급 상태가 다시 미취급 상태로 변경 된 경우 EABS-FD는 폐색신호현시 논리에 따라 폐색신호를 출력할 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-15">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-17" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-15">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-18" value="GSR_FD_FUN06" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="250" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-19" value="EABS-FD는 폐색게도 점유 신호를 입력 받아야 열차의 폐색구간 점유 여부를 판단해야 한다.&#xa;EABS-FD는 담당하고 있는 궤도회로의 점유 신호 검지 시 폐색신호를 ‘R’ 상태로 유지해야 한다.&#xa;EABS-FD는 해당 폐색게도에 점유 신호 검지되지 않았을 경우 폐색신호현시 논리에 따라 폐색신호를 출력할 재개한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-18">
+          <mxGeometry y="30" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-20" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-18">
+          <mxGeometry y="210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-21" value="GSR_FD_FUN07" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="500" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-22" value="EABS가 복선 모드로 운용 중에는 열차 방향 취급정보를 수신 시 열차 방향에 따라 역방향의 폐색신호는 ‘R’ 상태로 유지해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-21">
+          <mxGeometry y="30" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-23" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-21">
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
