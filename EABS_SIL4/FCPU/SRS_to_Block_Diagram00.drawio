@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T02:54:40.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="LSscpOX7MtXlwfLJr031" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:00:04.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="gAH_OctLor7OIpO2eBbQ" version="24.6.5" type="github" pages="7">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,7 +486,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="SCJ1vUykf8BJEr79rryc" name="Blocking signal control">
+  <diagram id="SCJ1vUykf8BJEr79rryc" name="Blocking signal control(FD)">
     <mxGraphModel dx="2665" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -661,6 +661,59 @@
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-44" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-42">
           <mxGeometry y="120" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6siOE2wEyetgwVpUFkRi" name="I/O control for EIS(SD)">
+    <mxGraphModel dx="1838" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-1" value="GSR_SD_FUN01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-2" value="EABS-SD는 전자연동장치로부터 아래와 같은 안전 관련 실선 신호를 입력 받으면 EABS-FD 또는 인접 EABS-SD로 전송해야 한다.&#xa;- EMS 취급 정보&#xa;- 열차 진행 방향 (DIR)&#xa;- 역 장내 신호 현시상태&#xa;- 역내 역간 방향 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-1">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-1">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-4" value="GSR_SD_FUN02" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="220" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-5" value="EABS-SD는 폐색 구간 내 EABS-FD의 현시 논리에 따라 EABS-FD로 부터 수신한 폐색 정보를 전자연동장치로 출력해야 한다.&#xa;- 궤도 점유 정보&#xa;- EABS-FD 고장 검지 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-4">
+          <mxGeometry y="30" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-6" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-4">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-7" value="GSR_SD_FUN03" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="410" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-8" value="EABS-SD는 폐색 구간 내 상태에 따라 단일 신호로 전자연동장치로 출력한다.&#xa;- CPT/eCPT 취급 정보&#xa;- 역간 역방향 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-7">
+          <mxGeometry y="30" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-9" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-7">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-10" value="GSR_SD_FUN04" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-11" value="EABS-SD는 폐색 구간 내 폐색 신호 상태에 따라 아래 상태를 출력해야 한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-10">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-12" value="각 현시 모드 별 신호 출력을 위한 실선 인터페이스는 4.4장을 참조한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-10">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-13" value="GSR_SD_FUN05" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-14" value="EABS-SD는 단선 운용 또는 복선 운용 중 역방향 운행 시 인접 EABS-SD로 또는 EABS-FD로부터 열차 진행 방향 취급 정보와 폐색구간 점유 정보를 수신하면 전자연동장치로 안전 관련 정보를 전송해야 한다.&#xa;- 열차 진행 방향 취급 정보 (DIR)&#xa;- 폐색구간 점유 정보&#xa;- 역내 역간 방향 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-13">
+          <mxGeometry y="30" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rXG0bgbzsYvjvhCW76z2-15" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-13">
+          <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
