@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T00:22:13.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="CTr0OiDMcnWZg6MDSjzT" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-16T00:35:55.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="51wWUnNXW-7F5ed4p34a" version="24.6.5" type="github" pages="6">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BkQvgYZcl_Q46B6HsszI-1" value="Technical Safety Requirements (FD)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;strokeWidth=2;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-690" y="-2250" width="300" height="1020" as="geometry" />
+          <mxGeometry x="-800" y="-2320" width="300" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="BkQvgYZcl_Q46B6HsszI-2" value="SSR_FD_TEC01&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 온도성능 규정 준수&#xa;PHA-MIT-01" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
           <mxGeometry y="20" width="300" height="100" as="geometry" />
@@ -214,6 +214,15 @@
         </mxCell>
         <mxCell id="BkQvgYZcl_Q46B6HsszI-11" value="SSR_FD_TEC10&#xa;EABS-FD - EABS-SD 간 통신에 IEC 62280 안전 관련 통신의 요구사항을 고려하여 설계해야 한다.&#xa;PHA-MIT-10" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
           <mxGeometry y="920" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wSvGHG_MOuJiudHNO_d_-3" value="SSR_FD_TEC01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="-2320" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wSvGHG_MOuJiudHNO_d_-4" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 온도성능 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-3">
+          <mxGeometry y="30" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wSvGHG_MOuJiudHNO_d_-5" value="Remarks: PHA-MIT-01" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-3">
+          <mxGeometry y="110" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
