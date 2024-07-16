@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T02:45:41.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="sbVN6SJASBZDU_TLF4Wn" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-16T02:50:00.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="xnrTPlnXKSd36-KXq5gc" version="24.6.5" type="github" pages="6">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -597,6 +597,33 @@
           <mxGeometry y="30" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2YGlYhv2cdjJD_F0XfDx-23" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-21">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-24" value="GSR_FD_FUN08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="690" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-25" value="EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 폐색신호를 LEU로 출력해야 한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-24">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-26" value="각 현시 모드 별 신호 출력을 위한 실선 인터페이스는 4.4장을 참조한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-24">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-27" value="GSR_FD_FUN09" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-28" value="EABS-FD는 폐색신호현시 논리에 따라 다음과 같은 신호를 ATS 장치로 출력해야 한다.&#xa;현시 출력은 3현시/4현시/5현시 상태에 따라 출력한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-27">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-29" value="각 현시 모드 별 신호 출력을 위한 실선 인터페이스는 4.4장을 참조한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-27">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-30" value="GSR_FD_FUN10" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-31" value="EABS-FD는 운용 환경에 따라 다음 신호 중 하나를 ATS 장치로 출력할 수 있도록 배선을 구성해야 한다.&#xa;- EL (Electric locomotive)&#xa;- DL (Diesel locomotive)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-30">
+          <mxGeometry y="30" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2YGlYhv2cdjJD_F0XfDx-32" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="2YGlYhv2cdjJD_F0XfDx-30">
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
