@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:27:06.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="j3_UN7R8JGEU-xi0oOBe" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:28:18.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="LgErJDMaNuW9GvgeSQql" version="24.6.5" type="github" pages="7">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -804,6 +804,42 @@
         </mxCell>
         <mxCell id="37U5DA2eRq2gN2ATvAZ6-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="37U5DA2eRq2gN2ATvAZ6-1">
           <mxGeometry y="210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-1" value="GSR_SD_FUN13" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="930" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-2" value="EABS-SD는 각 전원의 상태와 온도를 모니터링 해야 한다.&#xa;모니터링 결과, 고장 검지 시 EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-1">
+          <mxGeometry y="30" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-3" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-1">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-4" value="GSR_SD_FUN14" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="190" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-5" value="EABS-SD는 주변 장치와의 통신 상태를 시스템 번호 오류, 에러 감지 코드 오류 및 Time out을 통해 고장을 검지해야 한다.&#xa;고장 검지 시 EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-4">
+          <mxGeometry y="30" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-6" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-4">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-7" value="GSR_SD_FUN15" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="380" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-8" value="EABS-SD는 의도한 출력 상태와 출력에 대한 피드백 입력값의 출력 회로의 상태를 모니터링 해야 한다.&#xa;출력 회로에 대한 고장 검지 시 EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-7">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-9" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-7">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-10" value="GSR_SD_FUN16" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="600" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-11" value="EABS-SD는 가용성 이중제어 주기적으로 통신하고 상태 정보를 교환해야 한다.&#xa;상대 개가 안전 상태에 진입하였음을 검지 할 경우, 절체를 수행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-10">
+          <mxGeometry y="30" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="f4jq9uTCrHJaWd_9Ypge-12" value="-" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-10">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
