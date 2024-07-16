@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T02:20:17.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="H_b4sp9FIaiyJca7UKMd" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-16T02:22:17.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="V7QbslDiX3tXexS-pzm-" version="24.6.5" type="github" pages="6">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -407,6 +407,33 @@
           <mxGeometry y="30" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_LsolZU2m5dc8UPAtJZN-21" value="PHA-MIT-07" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-19">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-22" value="SSR_SD_TEC08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-1370" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-23" value="N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-22">
+          <mxGeometry y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-24" value="역내 환경으로 충격 관련 요구사항 미적용" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-22">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-25" value="SSR_SD_TEC09" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-1240" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-26" value="N/A&#xa;ID 간 식별의 용이성을 확보하기 위해 의도적으로 사용하지 않는다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-25">
+          <mxGeometry y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-27" value="역내 환경으로 진동관련 요구사항 미적용" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-25">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-28" value="SSR_SD_TEC10" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-1110" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-29" value="EABS-FD - EABS-SD 간 통신에 IEC 62280 안전 관련 통신의 요구사항을 고려하여 설계해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-28">
+          <mxGeometry y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LsolZU2m5dc8UPAtJZN-30" value="PHA-MIT-10" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;verticalAlign=bottom;" vertex="1" parent="_LsolZU2m5dc8UPAtJZN-28">
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
