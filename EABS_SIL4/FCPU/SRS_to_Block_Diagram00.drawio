@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:25:37.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="ia4nQfDoGSeXi3AIvJ0X" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:27:06.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="j3_UN7R8JGEU-xi0oOBe" version="24.6.5" type="github" pages="7">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -761,7 +761,7 @@
           <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-22" value="GSR_SD_FUN08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="940" width="300" height="180" as="geometry" />
+          <mxGeometry y="600" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-23" value="EABS-SD는 아래와 같은 현장의 상태 정보를 감시 PC로 송신해야 한다.&#xa;- EABS-FD 고장 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-22">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
