@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T06:36:29.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="e2CoQHY5EV2_cYCGJdTU" version="24.6.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-07-16T06:38:31.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="zNeQqUg8mB7BQQtrkYLM" version="24.6.5" type="github" pages="14">
   <diagram id="SUvC_oYcjn50ilki9p5t" name="Functional Safety Requirements">
     <mxGraphModel dx="2665" dy="3157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -501,7 +501,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-10" value="GSR_SD_FUN04" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="310" width="300" height="210" as="geometry" />
+          <mxGeometry y="600" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-11" value="EABS-SD는 폐색 구간 내 폐색 신호 상태에 따라 아래 상태를 출력해야 한다.&#xa;- R (정지)&#xa;- YY (경계)&#xa;- Y (주의)&#xa;- YG (감속)&#xa;- G (진행)" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-10">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -510,7 +510,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-13" value="GSR_SD_FUN05" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="220" width="300" height="240" as="geometry" />
+          <mxGeometry y="820" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-14" value="EABS-SD는 단선 운용 또는 복선 운용 중 역방향 운행 시 인접 EABS-SD로 또는 EABS-FD로부터 열차 진행 방향 취급 정보와 폐색구간 점유 정보를 수신하면 전자연동장치로 안전 관련 정보를 전송해야 한다.&#xa;- 열차 진행 방향 취급 정보 (DIR)&#xa;- 폐색구간 점유 정보&#xa;- 역내 역간 방향 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-13">
           <mxGeometry y="30" width="300" height="180" as="geometry" />
@@ -519,7 +519,7 @@
           <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-16" value="GSR_SD_FUN06" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="470" width="300" height="210" as="geometry" />
+          <mxGeometry x="310" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-17" value="EABS-SD는 아래와 같은 안전 관련 정보를 EABS-FD로 송신해야 한다.&#xa;- EMS 취급 정보&#xa;- 열차 진행 방향 (DIR)&#xa;- 역 장내 신호 현시상태" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-16">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -528,7 +528,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-19" value="GSR_SD_FUN07" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="690" width="300" height="240" as="geometry" />
+          <mxGeometry x="310" y="220" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-20" value="EABS-SD는 단선 운용 또는 복선 운용 중, 역방향 운행 시 인접 EABS-SD 또는 EABS-FD로 열차 진행 방향 취급 정보와 역내 역간 방향 정보를 송신해야 한다.&#xa;- 열차 진행 방향 취급 정보&#xa;- 역내 역간 방향 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-19">
           <mxGeometry y="30" width="300" height="180" as="geometry" />
@@ -537,7 +537,7 @@
           <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-22" value="GSR_SD_FUN08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry y="600" width="300" height="180" as="geometry" />
+          <mxGeometry x="310" y="470" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="rXG0bgbzsYvjvhCW76z2-23" value="EABS-SD는 아래와 같은 현장의 상태 정보를 감시 PC로 송신해야 한다.&#xa;- EABS-FD 고장 정보" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="rXG0bgbzsYvjvhCW76z2-22">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -546,7 +546,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4WbTbXBq-6r8wDZEa4mu-1" value="GSR_SD_FUN09" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" width="300" height="210" as="geometry" />
+          <mxGeometry x="310" y="660" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="4WbTbXBq-6r8wDZEa4mu-2" value="EABS-SD는 매 기동 시 안전 관련 출력, 출력에 대한 피드백 신호를 시험하여 안전 관련 출력에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-1">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -555,7 +555,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4WbTbXBq-6r8wDZEa4mu-4" value="GSR_SD_FUN10" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="220" width="300" height="210" as="geometry" />
+          <mxGeometry x="310" y="880" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="4WbTbXBq-6r8wDZEa4mu-5" value="EABS-SD는 인접 EABS-SD와 EABS-FD와의 통신에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-4">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -564,7 +564,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4WbTbXBq-6r8wDZEa4mu-7" value="GSR_SD_FUN11" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="440" width="300" height="210" as="geometry" />
+          <mxGeometry x="620" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="4WbTbXBq-6r8wDZEa4mu-8" value="EABS-FD 내 구성 요소에 소프트웨어가 탑재될 경우, 주변 장치 및 MCU에 대한 자가 진단을 수행해야 한다.&#xa;자가 진단 결과 고장 검지 시, EABS-FD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4WbTbXBq-6r8wDZEa4mu-7">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -573,7 +573,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="37U5DA2eRq2gN2ATvAZ6-1" value="GSR_SD_FUN12" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="660" width="300" height="240" as="geometry" />
+          <mxGeometry x="620" y="220" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="37U5DA2eRq2gN2ATvAZ6-2" value="EABS-SD는 매 기동 시 데이터베이스 설정과 운용 모드 설정 값을 읽고 채널 간 비교를 통해 설정 값의 무결성을 검증해야 한다.&#xa;- 시스템 구분: 단선용/복선용&#xa;- 현시 체계: 3현시/4현시/5현시&#xa;- EABS-SD 설치 수량: 단일 폐색구간 내 최대 2개 구성&#xa;검증 결과 채널 간 설정 값이 상이할 경우, EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="37U5DA2eRq2gN2ATvAZ6-1">
           <mxGeometry y="30" width="300" height="180" as="geometry" />
@@ -582,7 +582,7 @@
           <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-1" value="GSR_SD_FUN13" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="930" width="300" height="180" as="geometry" />
+          <mxGeometry x="620" y="470" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-2" value="EABS-SD는 각 전원의 상태와 온도를 모니터링 해야 한다.&#xa;모니터링 결과, 고장 검지 시 EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-1">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -591,7 +591,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-4" value="GSR_SD_FUN14" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="190" width="300" height="180" as="geometry" />
+          <mxGeometry x="620" y="660" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-5" value="EABS-SD는 주변 장치와의 통신 상태를 시스템 번호 오류, 에러 감지 코드 오류 및 Time out을 통해 고장을 검지해야 한다.&#xa;고장 검지 시 EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-4">
           <mxGeometry y="30" width="300" height="120" as="geometry" />
@@ -600,7 +600,7 @@
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-7" value="GSR_SD_FUN15" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="380" width="300" height="210" as="geometry" />
+          <mxGeometry x="620" y="850" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-8" value="EABS-SD는 의도한 출력 상태와 출력에 대한 피드백 입력값의 출력 회로의 상태를 모니터링 해야 한다.&#xa;출력 회로에 대한 고장 검지 시 EABS-SD는 안전 상태로 진행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-7">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
@@ -609,7 +609,7 @@
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-10" value="GSR_SD_FUN16" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="600" width="300" height="210" as="geometry" />
+          <mxGeometry x="930" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="f4jq9uTCrHJaWd_9Ypge-11" value="EABS-SD는 가용성 이중제어 주기적으로 통신하고 상태 정보를 교환해야 한다.&#xa;상대 개가 안전 상태에 진입하였음을 검지 할 경우, 절체를 수행해야 한다." style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="f4jq9uTCrHJaWd_9Ypge-10">
           <mxGeometry y="30" width="300" height="150" as="geometry" />
