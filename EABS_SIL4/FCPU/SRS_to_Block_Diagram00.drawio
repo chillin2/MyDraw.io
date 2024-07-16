@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T10:43:18.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="uAgSC37OULMHHUST3a4X" version="24.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-16T00:21:36.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="TmXLjcHJ3Vy02BJ2_cHP" version="24.6.5" type="github" pages="6">
   <diagram name="Requirements Diagram" id="YSfQBfb1CvDtw1BM-2t9">
     <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,6 +149,30 @@
         </mxCell>
         <mxCell id="SexOVKvJ3Z7SY1hcqXNa-6" value="SSR_SD_FUN02&#xa;시스템 관리 기능은 THR 값 1.00-E10를 할당 이에 적합하도록 시스템을 설계해야한다.&#xa;Tolerable Hazard Rate: 1.00-E10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="SexOVKvJ3Z7SY1hcqXNa-2">
           <mxGeometry y="320" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-13" value="SSR_FD_FUN01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="-1810" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-14" value="자동폐색신호 제어 기능은 THR 값 1.00E-10을 할당 이에 적합하도록 시스템을 설계해야 한다.&#xa;Tolerable Hazard Rate: 1.00E-10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4GtX1tX-QTteD1Z3bpzT-13">
+          <mxGeometry y="30" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-15" value="SSR_FD_FUN02" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-1810" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-16" value="시스템 관리 기능은 THR 값 1.00E-10을 할당 이에 적합하도록 시스템을 설계해야 한다.&#xa;Tolerable Hazard Rate: 1.00E-10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4GtX1tX-QTteD1Z3bpzT-15">
+          <mxGeometry y="30" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-17" value="SSR_SD_FUN01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="-1630" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-18" value="연동 정보 및 폐색 정보 연계 기능은 THR 값 1.00E-10을 할당 이에 적합하도록 시스템을 설계해야 한다.&#xa;Tolerable Hazard Rate: 1.00E-10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4GtX1tX-QTteD1Z3bpzT-17">
+          <mxGeometry y="30" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-19" value="SSR_SD_FUN02" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-1630" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4GtX1tX-QTteD1Z3bpzT-20" value="시스템 관리 기능은 THR 값 1.00E-10을 할당 이에 적합하도록 시스템을 설계해야 한다.&#xa;Tolerable Hazard Rate: 1.00E-10, Safety Integrity Level: 4" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="4GtX1tX-QTteD1Z3bpzT-19">
+          <mxGeometry y="30" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
