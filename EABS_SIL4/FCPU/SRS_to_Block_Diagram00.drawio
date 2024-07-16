@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T06:27:51.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="xUd4LaMr5OSIZRpkwav3" version="24.6.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-07-16T06:29:17.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="m_AybpvTDCXOnvbQu12z" version="24.6.5" type="github" pages="14">
   <diagram id="SUvC_oYcjn50ilki9p5t" name="Functional Safety Requirements">
     <mxGraphModel dx="2665" dy="3157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,45 +32,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QPWW3UkDxiG8FrXXhpae" name="Technical Safety Requirements (FD)">
-    <mxGraphModel dx="1703" dy="3147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2665" dy="3157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-1" value="Technical Safety Requirements (FD)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;strokeWidth=2;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-800" y="-2320" width="300" height="1020" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-2" value="SSR_FD_TEC01&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 온도성능 규정 준수&#xa;PHA-MIT-01" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="20" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-3" value="SSR_FD_TEC02&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 고습 규정 준수&#xa;PHA-MIT-02" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="120" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-4" value="SSR_FD_TEC03&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 방수/방진 규정 준수&#xa;PHA-MIT-03" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="220" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-5" value="SSR_FD_TEC04&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 전원변동 규정 준수&#xa;PHA-MIT-04" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="320" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-6" value="SSR_FD_TEC05&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 내전압 시험 규정 준수&#xa;PHA-MIT-05" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="420" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-7" value="SSR_FD_TEC06&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 EMC 규정 준수&#xa;PHA-MIT-06" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="520" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-8" value="SSR_FD_TEC07&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 절연성능 규정 준수&#xa;PHA-MIT-07" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="620" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-9" value="SSR_FD_TEC08&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 진동시험 규정 준수&#xa;PHA-MIT-08" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="720" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-10" value="SSR_FD_TEC09&#xa;KRTS-CO-Part5-2-2024에 명세된 요구사항의 동등 이상의 충격시험 규정 준수&#xa;PHA-MIT-09" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="820" width="300" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="BkQvgYZcl_Q46B6HsszI-11" value="SSR_FD_TEC10&#xa;EABS-FD - EABS-SD 간 통신에 IEC 62280 안전 관련 통신의 요구사항을 고려하여 설계해야 한다.&#xa;PHA-MIT-10" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="BkQvgYZcl_Q46B6HsszI-1">
-          <mxGeometry y="920" width="300" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-12" value="SSR_FD_TEC01" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-2320" width="240" height="120" as="geometry" />
+          <mxGeometry x="-827" y="-2338" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-13" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 온도성능 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-12">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -79,7 +46,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-15" value="SSR_FD_TEC02" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-2191" width="240" height="120" as="geometry" />
+          <mxGeometry x="-827" y="-2209" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-16" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 고습 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-15">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -88,7 +55,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-18" value="SSR_FD_TEC03" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-2061" width="240" height="120" as="geometry" />
+          <mxGeometry x="-827" y="-2079" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-19" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 방수/방진 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-18">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -97,7 +64,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-21" value="SSR_FD_TEC04" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-1930" width="240" height="120" as="geometry" />
+          <mxGeometry x="-827" y="-1948" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-22" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 전원변동 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-21">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -106,7 +73,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-24" value="SSR_FD_TEC05" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-1800" width="240" height="120" as="geometry" />
+          <mxGeometry x="-827" y="-1818" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-25" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 내전압 시험 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-24">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -115,7 +82,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-27" value="SSR_FD_TEC06" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-1670" width="240" height="120" as="geometry" />
+          <mxGeometry x="-580" y="-2338" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-28" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 EMC 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-27">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -124,7 +91,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-30" value="SSR_FD_TEC07" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-1540" width="240" height="120" as="geometry" />
+          <mxGeometry x="-580" y="-2208" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-31" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 절연성능 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-30">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -133,7 +100,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-33" value="SSR_FD_TEC08" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-1410" width="240" height="120" as="geometry" />
+          <mxGeometry x="-580" y="-2078" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-34" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 진동시험 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-33">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -142,7 +109,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-36" value="SSR_FD_TEC09" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-1280" width="240" height="120" as="geometry" />
+          <mxGeometry x="-580" y="-1948" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-37" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-36">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
@@ -151,7 +118,7 @@
           <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-39" value="SSR_FD_TEC10" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-1150" width="240" height="120" as="geometry" />
+          <mxGeometry x="-580" y="-1818" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wSvGHG_MOuJiudHNO_d_-40" value="KRTS-CO-Part5-2-2024 에 명세된 요구사항의 동등 이상의 규정 준수" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="wSvGHG_MOuJiudHNO_d_-39">
           <mxGeometry y="30" width="240" height="60" as="geometry" />
