@@ -1043,7 +1043,7 @@
           <mxGeometry x="350" y="1006" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="y24MIxbhBwyy81BUQA5c-456" value="" style="shape=mxgraph.signs.transportation.train_3;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="556" y="987" width="39.5" height="15" as="geometry" />
+          <mxGeometry x="364" y="987" width="39.5" height="15" as="geometry" />
         </mxCell>
         <mxCell id="y24MIxbhBwyy81BUQA5c-457" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
