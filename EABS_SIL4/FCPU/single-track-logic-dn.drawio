@@ -43,7 +43,7 @@
         <mxCell id="7ok6oC4QqBGluofvjfyL-11" value="BL1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1038" y="130" width="47" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="7ok6oC4QqBGluofvjfyL-12" value="PR.AR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="7ok6oC4QqBGluofvjfyL-12" value="PR.R&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;R&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="482" y="184" width="40" height="11" as="geometry" />
         </mxCell>
         <mxCell id="7ok6oC4QqBGluofvjfyL-13" value="PR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
@@ -900,12 +900,6 @@
         </mxCell>
         <mxCell id="7ok6oC4QqBGluofvjfyL-234" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;PR.RR&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1195" y="138" width="47" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="7ok6oC4QqBGluofvjfyL-235" value="PR.RR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="538" y="184" width="40" height="11" as="geometry" />
-        </mxCell>
-        <mxCell id="7ok6oC4QqBGluofvjfyL-236" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.windowBow;strokeWidth=1;fontSize=11;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="546" y="196.5" width="21" height="11" as="geometry" />
         </mxCell>
         <mxCell id="7ok6oC4QqBGluofvjfyL-237" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(relay name).AR - 완동(time delay acting relay)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(relay name)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;.RR - 완방(time delay release relay)&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="445" y="80" width="588" height="30" as="geometry" />
